@@ -1,0 +1,417 @@
+﻿FACTION_NAME	SECTOR_NAME	GATE_NAME	POS_X	POS_Y	POS_Z
+Amananth	Aman Gate	Inner Gyre	0.0	0.0	0.0
+Amananth	Aman Gate	Outer Gyre	-14.4	-2.8	-23.6
+Amananth	Aman Gate	The Dark	-1.4	-2.4	-12.0
+Amananth	Aman Hook	Canis 9502	-3.2	-21.9	-2.0
+Amananth	Aman Hook	Last Parsec	0.0	0.0	0.0
+Amananth	Aman Hook	The Gyre	-6.8	-11.7	30.4
+Amananth	Amananth	Aman Leap	2.6	-6.6	-9.5
+Amananth	Amananth	Inner Aman	10.6	7.6	-8.9
+Amananth	Amananth	The Gyre	0.0	0.0	0.0
+Amananth	Canis 9502	Aman Hook	0.0	0.0	0.0
+Amananth	Inner Aman	Amananth	0.0	0.0	0.0
+Amananth	Inner Aman	The Last Point	7.8	-4.8	49.0
+Amananth	Last Parsec	Aman Hook	28.4	10.0	-17.5
+Amananth	Last Parsec	Sea of Shadows	26.1	10.0	16.0
+Amananth	Last Parsec	The Stith	0.0	0.0	0.0
+Amananth	Sea of Shadows	Last Parsec	6.5	-1.0	-12.9
+Amananth	Sea of Shadows	The Split	0.0	0.0	0.0
+Amananth	The Dark	Aman Gate	21.8	0.0	9.9
+Amananth	The Dark	The Last Point	0.0	0.0	0.0
+Amananth	The Gyre	Aman Hook	22.5	0.0	0.0
+Amananth	The Gyre	Amananth	11.2	0.0	19.5
+Amananth	The Gyre	The Split	0.0	0.0	0.0
+Amananth	The Last Point	Inner Aman	18.7	-1.4	13.7
+Amananth	The Last Point	The Dark	0.0	0.0	0.0
+Amananth	The Split	Sea of Shadows	0.0	0.0	0.0
+Amananth	The Split	The Gyre	29.7	2.1	1.9
+Conflux Galaxy	Aman Leap	Amananth	-17.1	-0.6	24.2
+Conflux Galaxy	Aman Leap	C-1096	0.0	0.0	0.0
+Conflux Galaxy	Aman Leap	Explorers` Haven	-15.5	-7.3	15.1
+Conflux Galaxy	Aman Leap	The Depths	-32.2	1.0	41.5
+Conflux Galaxy	C-1095	The Chase	14.8	-13.9	-12.0
+Conflux Galaxy	C-1095	The Disturbance	0.0	0.0	0.0
+Conflux Galaxy	C-1096	Aman Leap	-5.9	-9.6	-13.4
+Conflux Galaxy	C-1096	The Disturbance	0.0	0.0	0.0
+Conflux Galaxy	C-1097	C-2203	0.0	0.0	0.0
+Conflux Galaxy	C-1097	Contact	-2.7	17.8	-5.2
+Conflux Galaxy	C-1098	Courage	-19.9	0.8	26.2
+Conflux Galaxy	C-1098	Explorers` Haven	0.0	0.0	0.0
+Conflux Galaxy	C-1100	C-2200	0.0	0.0	0.0
+Conflux Galaxy	C-1100	The Chase	15.6	4.7	-17.3
+Conflux Galaxy	C-1101	Contact	0.0	0.0	0.0
+Conflux Galaxy	C-1102	Explorers` Haven	0.0	0.0	0.0
+Conflux Galaxy	C-2199	C-2200	0.0	0.0	0.0
+Conflux Galaxy	C-2200	C-1100	-0.3	0.4	25.2
+Conflux Galaxy	C-2200	C-2199	13.4	-2.1	12.5
+Conflux Galaxy	C-2200	C-3307	0.0	0.0	0.0
+Conflux Galaxy	C-2200	Death`s Door	-5.5	3.7	12.5
+Conflux Galaxy	C-2201	C-2204	-6.5	-3.6	-11.0
+Conflux Galaxy	C-2201	Death`s Door	0.0	0.0	0.0
+Conflux Galaxy	C-2201	The Depths	-13.9	3.3	-6.5
+Conflux Galaxy	C-2203	C-1097	-4.4	4.6	13.3
+Conflux Galaxy	C-2203	C-2204	0.0	0.0	0.0
+Conflux Galaxy	C-2203	Prawn`s Nest	0.3	5.9	24.9
+Conflux Galaxy	C-2204	C-2201	9.0	-14.0	7.7
+Conflux Galaxy	C-2204	C-2203	15.6	3.3	6.6
+Conflux Galaxy	C-2204	C-3302	0.0	0.0	0.0
+Conflux Galaxy	C-2204	Cynomys Passage	6.1	-3.6	8.7
+Conflux Galaxy	C-2206	C-3305	0.0	0.0	0.0
+Conflux Galaxy	C-2206	The Hunting Grounds	-15.5	0.0	-9.1
+Conflux Galaxy	C-3302	C-2204	-0.9	-12.7	-0.1
+Conflux Galaxy	C-3302	C-3303	0.0	0.0	0.0
+Conflux Galaxy	C-3303	C-3302	3.8	-5.3	-19.7
+Conflux Galaxy	C-3303	C-3304	0.0	0.0	0.0
+Conflux Galaxy	C-3304	C-3303	-3.5	-19.4	-17.4
+Conflux Galaxy	C-3304	C-3308	0.0	0.0	0.0
+Conflux Galaxy	C-3305	C-2206	-7.1	-16.2	5.4
+Conflux Galaxy	C-3305	C-3306	0.0	0.0	0.0
+Conflux Galaxy	C-3305	Cynomys Passage	10.6	-7.1	11.7
+Conflux Galaxy	C-3306	C-3305	1.0	-11.3	-4.0
+Conflux Galaxy	C-3306	C-3308	0.0	0.0	0.0
+Conflux Galaxy	C-3306	LMHB-3324	-9.1	-5.0	-1.2
+Conflux Galaxy	C-3307	C-2200	-12.1	0.6	15.6
+Conflux Galaxy	C-3307	Prawn`s Nest	0.0	0.0	0.0
+Conflux Galaxy	C-3308	C-3304	0.0	0.0	0.0
+Conflux Galaxy	C-3308	C-3306	2.2	7.3	-10.2
+Conflux Galaxy	C-3309	LMHB-3324	0.0	0.0	0.0
+Conflux Galaxy	Contact	C-1097	0.0	0.0	0.0
+Conflux Galaxy	Contact	C-1101	5.5	14.1	18.0
+Conflux Galaxy	Contact	Courage	-17.0	11.8	24.8
+Conflux Galaxy	Contact	Explorers` Haven	-10.7	4.3	17.7
+Conflux Galaxy	Courage	C-1098	-1.1	-4.9	-22.5
+Conflux Galaxy	Courage	Contact	-27.5	-9.2	6.5
+Conflux Galaxy	Courage	The Chase	0.0	0.0	0.0
+Conflux Galaxy	Cynomys Passage	C-2204	-9.0	3.2	5.2
+Conflux Galaxy	Cynomys Passage	C-3305	-0.4	0.7	0.4
+Conflux Galaxy	Death`s Door	C-2200	-17.3	1.4	-21.2
+Conflux Galaxy	Death`s Door	C-2201	0.0	-11.0	0.0
+Conflux Galaxy	Death`s Door	No Man`s Land	0.0	0.0	0.0
+Conflux Galaxy	Explorers` Haven	Aman Leap	0.0	0.0	0.0
+Conflux Galaxy	Explorers` Haven	C-1098	-15.0	9.4	5.8
+Conflux Galaxy	Explorers` Haven	C-1102	-26.8	12.3	-12.8
+Conflux Galaxy	Explorers` Haven	Contact	11.3	1.5	18.5
+Conflux Galaxy	First Sight	The Depths	0.0	0.0	0.0
+Conflux Galaxy	LMHB-3324	C-3306	0.0	0.0	0.0
+Conflux Galaxy	LMHB-3324	C-3309	-6.1	2.7	-28.6
+Conflux Galaxy	LMHB-3324	Pulsar Gate	-15.9	-6.0	-13.6
+Conflux Galaxy	No Man`s Land	Death`s Door	19.8	3.5	2.9
+Conflux Galaxy	No Man`s Land	The Killing Fields	0.0	0.0	0.0
+Conflux Galaxy	Prawn`s Nest	C-2203	0.0	0.0	0.0
+Conflux Galaxy	Prawn`s Nest	C-3307	-7.0	16.3	7.1
+Conflux Galaxy	Pulsar Gate	LMHB-3324	0.0	0.0	0.0
+Conflux Galaxy	Pulsar Gate	Pulsar	-12.5	14.6	-2.1
+Conflux Galaxy	Pulsar Gate	The Bloody Bay	-18.1	-5.4	17.9
+Conflux Galaxy	The Bloody Bay	Pulsar Gate	0.0	0.0	0.0
+Conflux Galaxy	The Bloody Bay	The Hunting Grounds	-8.2	-0.7	18.7
+Conflux Galaxy	The Bloody Bay	The Killing Fields	3.8	6.0	9.2
+Conflux Galaxy	The Chase	C-1095	-3.7	-9.5	5.4
+Conflux Galaxy	The Chase	C-1100	0.0	0.0	0.0
+Conflux Galaxy	The Chase	Courage	4.8	-9.8	-5.8
+Conflux Galaxy	The Depths	Aman Leap	3.3	9.1	-13.5
+Conflux Galaxy	The Depths	C-2201	15.0	16.4	-5.9
+Conflux Galaxy	The Depths	First Sight	10.8	8.8	4.7
+Conflux Galaxy	The Depths	The Disturbance	0.0	0.0	0.0
+Conflux Galaxy	The Disturbance	C-1095	0.0	0.0	0.0
+Conflux Galaxy	The Disturbance	C-1096	10.1	7.9	-11.4
+Conflux Galaxy	The Disturbance	The Depths	-12.3	8.6	-11.4
+Conflux Galaxy	The Hunting Grounds	C-2206	0.0	0.0	0.0
+Conflux Galaxy	The Hunting Grounds	The Bloody Bay	6.8	6.0	6.3
+Conflux Galaxy	The Killing Fields	No Man`s Land	0.0	8.8	9.0
+Conflux Galaxy	The Killing Fields	The Bloody Bay	0.0	0.0	0.0
+Hyperial	Far Gate	Hyperial	-48.6	37.1	-29.4
+Hyperial	Far Gate	Hyperian Hook	0.0	0.0	0.0
+Hyperial	Far Gate	T&P	-17.7	7.5	33.3
+Hyperial	Hyperial	Far Gate	0.0	0.0	0.0
+Hyperial	Hyperial	The Rear Gate	7.4	-4.3	-16.9
+Hyperial	Hyperian Hook	Far Gate	0.0	0.0	0.0
+Hyperial	Hyperian Hook	The Rear Gate	31.5	-16.1	-20.4
+Hyperial	Inner Cloud	T&P	0.0	0.0	0.0
+Hyperial	Inner Cloud	The Main Gate	31.5	-2.2	13.8
+Hyperial	Outer Cloud	The Reaches	27.1	12.2	14.6
+Hyperial	Outer Cloud	The Rear Gate	0.0	0.0	0.0
+Hyperial	T&P	Far Gate	0.0	0.0	0.0
+Hyperial	T&P	Inner Cloud	-27.1	-12.2	-14.6
+Hyperial	The Main Gate	Great Venure Belt	66.1	0.0	26.8
+Hyperial	The Main Gate	Inner Cloud	0.0	0.0	0.0
+Hyperial	The Main Gate	The Lesser Locks	39.1	0.0	-25.7
+Hyperial	The Main Gate	The Reaches	40.2	0.0	-43.7
+Hyperial	The Reaches	Outer Cloud	0.0	0.0	0.0
+Hyperial	The Reaches	The Main Gate	22.5	-14.5	-21.1
+Hyperial	The Rear Gate	Hyperial	-46.7	-12.9	-7.4
+Hyperial	The Rear Gate	Hyperian Hook	0.0	0.0	0.0
+Hyperial	The Rear Gate	Outer Cloud	-30.1	6.0	-19.4
+Octavian	Arkan`s Cloud	Primus Point	30.9	-26.3	15.3
+Octavian	Arkan`s Cloud	The Outer Edge	0.0	0.0	0.0
+Octavian	Arkan`s Cloud	The Outpost-Station	15.0	-18.4	14.3
+Octavian	Arkan`s Cloud	The Rim	11.7	4.1	-1.1
+Octavian	Dark Gateway	Diluted Reaches	-36.8	9.7	-15.1
+Octavian	Dark Gateway	Far Point	0.0	0.0	0.0
+Octavian	Dark Gateway	Primus Point	-9.8	8.1	12.6
+Octavian	Dark Gateway	The Greater Locks	-6.0	37.4	4.7
+Octavian	Imperial Causeway	Octavius-Core Station	0.0	0.0	0.0
+Octavian	Imperial Causeway	Versalus` Hook	32.8	-2.6	6.0
+Octavian	Imperial Crossroads	The Dark Fork	-25.1	-2.4	-20.8
+Octavian	Imperial Crossroads	The Great Pillars-Station	0.0	0.0	0.0
+Octavian	Imperial Gates	Octavius-Core Station	16.2	8.4	30.0
+Octavian	Imperial Gates	The Dark Fork	0.0	0.0	0.0
+Octavian	Mokk`s Battlefield	The Outer Edge	0.0	0.0	0.0
+Octavian	Octavian Shore	The Blasted Corner	34.8	-7.5	-10.9
+Octavian	Octavian Shore	The Gurge	-18.7	-35.8	31.7
+Octavian	Octavian Shore	Versalus` Hook	0.0	0.0	0.0
+Octavian	Octavius Depot	Vorgus2	0.0	0.0	0.0
+Octavian	Octavius-Core Station	Imperial Causeway	0.0	0.0	0.0
+Octavian	Octavius-Core Station	Imperial Gates	-0.1	7.2	15.4
+Octavian	Octavius-Core Station	Orrus Major	-28.4	-2.1	0.7
+Octavian	Orrus Major	Octavius-Core Station	0.0	0.0	0.0
+Octavian	Orrus Major	Orrus Minor	20.7	2.6	16.9
+Octavian	Orrus Minor	Orrus Major	0.0	0.0	0.0
+Octavian	Orrus Minor	Vorgus2	-4.9	-2.6	24.7
+Octavian	Primus Point	Arkan`s Cloud	-19.9	-10.4	-0.8
+Octavian	Primus Point	Dark Gateway	-4.6	-29.7	-9.4
+Octavian	Primus Point	Sark`s Passage	0.0	0.0	0.0
+Octavian	Sark`s Passage	Primus Point	-2.0	-41.0	15.8
+Octavian	Sark`s Passage	The Edge	0.0	0.0	0.0
+Octavian	The Blasted Corner	Octavian Shore	27.6	-2.5	14.7
+Octavian	The Blasted Corner	The Outpost-Station	0.0	0.0	0.0
+Octavian	The Dark Fork	Imperial Crossroads	0.0	0.0	0.0
+Octavian	The Dark Fork	Imperial Gates	18.8	8.2	-5.6
+Octavian	The Dark Fork	Versalus` Hook	25.7	21.7	23.7
+Octavian	The Dark Fork	Vorgus2	-9.1	24.7	-11.5
+Octavian	The Divide	The Edge	5.1	22.2	1.5
+Octavian	The Divide	The Great Pillars-Station	8.1	52.9	17.3
+Octavian	The Divide	The Rim	0.0	0.0	0.0
+Octavian	The Edge	Sark`s Passage	0.0	0.0	0.0
+Octavian	The Edge	The Divide	5.3	-26.2	18.7
+Octavian	The Great Pillars-Station	Imperial Crossroads	-3.9	13.1	11.9
+Octavian	The Great Pillars-Station	The Divide	0.0	0.0	0.0
+Octavian	The Gurge	Evening`s End	-15.8	-6.9	-24.9
+Octavian	The Gurge	Octavian Shore	0.1	-24.9	-54.7
+Octavian	The Gurge	Ring View	52.1	-12.5	-27.4
+Octavian	The Gurge	The Dark Crossroads	0.0	0.0	0.0
+Octavian	The Outer Edge	Arkan`s Cloud	-4.7	-11.0	18.1
+Octavian	The Outer Edge	Mokk`s Battlefield	0.0	0.0	0.0
+Octavian	The Outer Edge	The Outer Rim	-25.7	-4.7	2.9
+Octavian	The Outer Rim	The Outer Edge	0.0	0.0	0.0
+Octavian	The Outer Rim	The Rim	28.1	-20.7	17.3
+Octavian	The Outpost-Station	Arkan`s Cloud	0.0	0.0	0.0
+Octavian	The Outpost-Station	The Blasted Corner	15.5	-14.8	6.2
+Octavian	The Rim	Arkan`s Cloud	0.0	0.0	0.0
+Octavian	The Rim	The Divide	23.4	-15.1	17.3
+Octavian	The Rim	The Outer Rim	14.3	8.3	12.9
+Octavian	Versalus` Hook	Imperial Causeway	-0.6	-5.8	-11.5
+Octavian	Versalus` Hook	Octavian Shore	0.0	0.0	0.0
+Octavian	Versalus` Hook	The Dark Fork	-42.6	-22.6	11.2
+Octavian	Vorgus2	Octavius Depot	0.0	0.0	0.0
+Octavian	Vorgus2	Orrus Minor	-40.5	15.8	-19.0
+Octavian	Vorgus2	The Dark Fork	5.0	-19.4	-15.9
+Quantar	Callow Passage	The Dark End	0.0	0.0	0.0
+Quantar	Callow Passage	Tictac`s Hook	37.0	-29.5	-3.6
+Quantar	Ekoo`s Stop	Omni V	-29.1	23.4	15.0
+Quantar	Ekoo`s Stop	Quantar Gate	0.0	0.0	0.0
+Quantar	Ekoo`s Stop	Ring View	-18.6	6.7	-2.0
+Quantar	Ekoo`s Stop	Rounds of Quantos	-35.0	5.4	-11.2
+Quantar	Great Venure Belt	Hyperion Gate	-9.4	12.0	7.0
+Quantar	Great Venure Belt	Klatsches Hold	7.7	15.8	-12.1
+Quantar	Great Venure Belt	The Main Gate	28.5	7.8	6.5
+Quantar	Great Venure Belt	Zealots Refuge	0.0	0.0	0.0
+Quantar	Hook of Roh	Quantar Depot	3.0	-19.8	8.5
+Quantar	Hook of Roh	Square of Quantos	-22.3	-16.9	23.2
+Quantar	Hook of Roh	The Dark Path	0.0	0.0	0.0
+Quantar	Hyperion Gate	Great Venure Belt	0.0	0.0	0.0
+Quantar	Hyperion Gate	Rounds of Quantos	38.6	17.9	-5.6
+Quantar	Inner Roh-Cloud	Outer Roh-Cloud	0.0	0.0	0.0
+Quantar	Inner Roh-Cloud	Quantar-Core Station	12.8	15.3	1.3
+Quantar	Inner Roh-Cloud	Square of Quantos	-25.8	27.3	-15.8
+Quantar	Inner Third	Orus` Tail	3.4	14.8	-17.2
+Quantar	Inner Third	Outer Third	0.0	0.0	0.0
+Quantar	Long Walk	Quantar Depot	3.9	-5.5	20.9
+Quantar	Long Walk	The Quadrangle	8.3	-27.9	-6.9
+Quantar	Long Walk	Third Gate	0.0	0.0	0.0
+Quantar	Long Walk	Tictac`s Hook	20.9	-21.2	4.7
+Quantar	Omni IV	Path of Hordes	-14.2	-18.6	-6.4
+Quantar	Omni IV	Quantar-Core Station	0.0	0.0	0.0
+Quantar	Omni V	Ekoo`s Stop	-27.2	-16.7	18.7
+Quantar	Omni V	Quantar-Core Station	0.0	0.0	0.0
+Quantar	Orus` Leg	The Dark End	17.9	29.1	-24.8
+Quantar	Orus` Leg	Upper Third	0.0	0.0	0.0
+Quantar	Orus` Tail	Inner Third	0.0	0.0	0.0
+Quantar	Orus` Tail	The Corridor-Station	-8.6	-33.2	13.1
+Quantar	Orus` Tail	Upper Third	13.2	-15.6	28.8
+Quantar	Outer Roh-Cloud	Inner Roh-Cloud	53.8	5.9	-1.9
+Quantar	Outer Roh-Cloud	The Dark Trail	0.0	0.0	0.0
+Quantar	Outer Third	Inner Third	0.0	0.0	0.0
+Quantar	Path of Hordes	Omni IV	0.0	0.0	0.0
+Quantar	Path of Hordes	Quanaus Crossing	14.3	-16.0	-21.1
+Quantar	Path of Hordes	The Quadrangle	-17.9	-16.4	-38.6
+Quantar	Quanaus Crossing	Path of Hordes	13.3	33.4	-12.5
+Quantar	Quanaus Crossing	Quantar-Core Station	0.0	0.0	0.0
+Quantar	Quantar Depot	Hook of Roh	0.0	0.0	0.0
+Quantar	Quantar Depot	Long Walk	15.1	2.4	33.1
+Quantar	Quantar Gate	Ekoo`s Stop	-31.2	19.2	21.9
+Quantar	Quantar Gate	Greater Arm	-21.8	8.8	-0.9
+Quantar	Quantar Gate	Inner Storm	0.0	0.0	0.0
+Quantar	Quantar Hook	Ring View	0.0	0.0	0.0
+Quantar	Quantar Hook	Third Gate	6.3	12.5	18.0
+Quantar	Quantar-Core Station	Inner Roh-Cloud	0.0	0.0	0.0
+Quantar	Quantar-Core Station	Omni IV	-13.9	3.7	-2.2
+Quantar	Quantar-Core Station	Omni V	-29.3	-9.5	-9.2
+Quantar	Quantar-Core Station	Quanaus Crossing	-1.9	-9.5	-17.0
+Quantar	Ring View	Ekoo`s Stop	0.0	0.0	0.0
+Quantar	Ring View	Quantar Hook	9.8	-16.1	6.5
+Quantar	Ring View	The Connexion	35.6	10.7	-24.2
+Quantar	Ring View	The Gurge	48.6	0.6	-21.6
+Quantar	Rounds of Quantos	Ekoo`s Stop	26.6	6.3	27.2
+Quantar	Rounds of Quantos	Hyperion Gate	0.0	0.0	0.0
+Quantar	Square of Quantos	Hook of Roh	31.8	-18.9	-22.4
+Quantar	Square of Quantos	Inner Roh-Cloud	0.0	0.0	0.0
+Quantar	The Corridor-Station	Orus` Tail	23.3	18.1	3.1
+Quantar	The Corridor-Station	The Dark End	36.0	21.8	20.2
+Quantar	The Corridor-Station	The Dark Trail	0.0	0.0	0.0
+Quantar	The Dark End	Callow Passage	-23.4	6.9	-2.9
+Quantar	The Dark End	Orus` Leg	0.0	0.0	0.0
+Quantar	The Dark End	The Corridor-Station	20.7	6.9	-15.5
+Quantar	The Dark Path	Hook of Roh	9.3	-24.5	26.5
+Quantar	The Dark Path	The Dark Trail	0.0	0.0	0.0
+Quantar	The Dark Trail	Outer Roh-Cloud	-4.3	21.7	-15.5
+Quantar	The Dark Trail	The Corridor-Station	0.0	0.0	0.0
+Quantar	The Dark Trail	The Dark Path	-33.2	-8.8	-13.1
+Quantar	The Quadrangle	Long Walk	22.3	-5.8	14.5
+Quantar	The Quadrangle	Path of Hordes	0.0	0.0	0.0
+Quantar	The Quadrangle	Tictac`s Hook	-0.8	7.2	21.7
+Quantar	Third Gate	Long Walk	0.0	0.0	0.0
+Quantar	Third Gate	Quantar Hook	-20.0	10.4	-3.4
+Quantar	Tictac`s Hook	Callow Passage	14.2	12.9	1.8
+Quantar	Tictac`s Hook	Long Walk	13.8	-20.1	-16.3
+Quantar	Tictac`s Hook	The Quadrangle	0.0	0.0	0.0
+Quantar	Tictac`s Hook	TriPoint-Station	-1.2	-14.7	-18.3
+Quantar	TriPoint-Station	Tictac`s Hook	0.0	0.0	0.0
+Quantar	Upper Third	Orus` Leg	0.0	0.0	0.0
+Quantar	Upper Third	Orus` Tail	-7.2	-29.5	3.2
+Solrain	Hirbel`s Channel	The Cerulean Clouds	0.0	0.0	0.0
+Solrain	Hirbel`s Channel	The Wake-Station	14.0	-1.8	-7.8
+Solrain	Midpoint Rift	The Inner Oasis	-18.3	1.0	18.1
+Solrain	Midpoint Rift	The Outer Oasis	0.0	0.0	0.0
+Solrain	Morain Harbour	Purian Lake	12.9	5.6	-17.0
+Solrain	Morain Harbour	The Bronci Rift	13.1	16.8	0.8
+Solrain	Morain Harbour	The Fields	0.0	0.0	0.0
+Solrain	Morain Harbour	Tranquillus Major	25.4	11.6	1.6
+Solrain	Purian Lake	Morain Harbour	0.0	0.0	0.0
+Solrain	Purian Lake	The Outer Lighthouse	13.8	9.4	-2.3
+Solrain	Purian Lake	The Wake-Station	10.6	16.8	16.6
+Solrain	Solrain Depot	Tranquillus Minor	0.0	0.0	0.0
+Solrain	Solrain-Core Station	The Narrow Canal	0.0	0.0	0.0
+Solrain	Solrain-Core Station	The Sea of Solrain	19.2	8.5	28.3
+Solrain	Solrain-Core Station	Wanderer`s Pond	26.6	-8.8	6.1
+Solrain	The Azure Churn	The Cerulean Clouds	-15.5	-1.0	-11.2
+Solrain	The Azure Churn	The Cornea-Station	0.0	0.0	0.0
+Solrain	The Bronci Rift	Morain Harbour	21.3	-11.9	6.7
+Solrain	The Bronci Rift	Tranquillus Major	7.3	-10.1	14.5
+Solrain	The Bronci Rift	Zealots Refuge	0.0	0.0	0.0
+Solrain	The Cerulean Clouds	Hirbel`s Channel	0.0	0.0	0.0
+Solrain	The Cerulean Clouds	The Azure Churn	-19.4	12.2	-5.5
+Solrain	The Cerulean Clouds	Tribular Canal	-1.1	32.4	-12.2
+Solrain	The Cornea-Station	The Azure Churn	5.3	3.4	7.8
+Solrain	The Cornea-Station	The Outer Depths	0.0	0.0	0.0
+Solrain	The Cornea-Station	The Outer Oasis	-24.8	-5.5	4.6
+Solrain	The Fields	Morain Harbour	-10.0	5.1	19.7
+Solrain	The Fields	The Sea of Solrain	13.3	-3.6	-4.9
+Solrain	The Fields	Tranquillus Minor	0.0	0.0	0.0
+Solrain	The Greater Locks	Dark Gateway	-1.8	-11.9	-13.4
+Solrain	The Greater Locks	The Inner Lighthouse	2.5	0.7	10.5
+Solrain	The Greater Locks	The Outer Lighthouse	0.0	0.0	0.0
+Solrain	The Inner Lighthouse	The Greater Locks	5.0	7.8	13.6
+Solrain	The Inner Lighthouse	Wanderer`s Pond	0.0	0.0	0.0
+Solrain	The Inner Oasis	Midpoint Rift	0.0	0.0	0.0
+Solrain	The Inner Oasis	Tranquillus Minor	-8.3	12.2	14.2
+Solrain	The Lesser Locks	The Main Gate	-44.5	34.3	-27.5
+Solrain	The Lesser Locks	The Narrow Canal	0.0	0.0	0.0
+Solrain	The Narrow Canal	Solrain-Core Station	-34.6	34.3	-20.8
+Solrain	The Narrow Canal	The Lesser Locks	0.0	0.0	0.0
+Solrain	The Narrow Canal	Tranquillus Minor	-32.9	-0.9	1.1
+Solrain	The Outer Depths	The Cornea-Station	32.7	-2.5	1.2
+Solrain	The Outer Depths	Tribular Canal	0.0	0.0	0.0
+Solrain	The Outer Lighthouse	Purian Lake	0.0	0.0	0.0
+Solrain	The Outer Lighthouse	The Greater Locks	26.9	16.8	22.3
+Solrain	The Outer Oasis	Midpoint Rift	-18.3	1.0	18.1
+Solrain	The Outer Oasis	The Cornea-Station	0.0	0.0	0.0
+Solrain	The Sea of Solrain	Solrain-Core Station	14.0	-1.8	-7.8
+Solrain	The Sea of Solrain	The Fields	0.0	0.0	0.0
+Solrain	The Wake-Station	Hirbel`s Channel	0.0	0.0	0.0
+Solrain	The Wake-Station	Purian Lake	-24.4	-4.8	4.5
+Solrain	Tranquillus Major	Morain Harbour	9.3	1.3	-15.1
+Solrain	Tranquillus Major	The Bronci Rift	0.0	0.0	0.0
+Solrain	Tranquillus Minor	Solrain Depot	6.9	-20.1	-21.7
+Solrain	Tranquillus Minor	The Fields	19.5	2.7	8.3
+Solrain	Tranquillus Minor	The Inner Oasis	29.2	-12.6	-21.0
+Solrain	Tranquillus Minor	The Narrow Canal	0.0	0.0	0.0
+Solrain	Tribular Canal	The Cerulean Clouds	17.1	31.8	19.5
+Solrain	Tribular Canal	The Outer Depths	0.0	0.0	0.0
+Solrain	Wanderer`s Pond	Solrain-Core Station	0.0	0.0	0.0
+Solrain	Wanderer`s Pond	The Inner Lighthouse	-20.3	-7.7	-15.6
+Unregulated	Diluted Reaches	Dark Gateway	0.0	0.0	0.0
+Unregulated	Diluted Reaches	The Stith	17.8	-28.7	29.4
+Unregulated	Evening`s End	The Gurge	0.0	0.0	0.0
+Unregulated	Far Point	Dark Gateway	15.7	-20.2	12.4
+Unregulated	Far Point	Lothar`s Landing	0.0	0.0	0.0
+Unregulated	Far Point	The Light Crossroads	-13.0	1.4	45.1
+Unregulated	Four Fingers	Inner Storm	-15.6	3.0	-10.5
+Unregulated	Four Fingers	Outer Ring	-15.2	18.5	7.1
+Unregulated	Four Fingers	Outskirts	0.0	0.0	0.0
+Unregulated	Four Fingers	Saron`s Eye	2.4	4.7	14.7
+Unregulated	Great Barrier Station	Saron`s Shoulder	0.0	0.0	0.0
+Unregulated	Greater Arm	Outer Gyre	-21.6	4.8	0.1
+Unregulated	Greater Arm	Quantar Gate	-20.4	-7.5	-8.8
+Unregulated	Greater Arm	Saron`s Eye	0.0	0.0	0.0
+Unregulated	Inner Gyre	Aman Gate	-11.9	12.8	17.6
+Unregulated	Inner Gyre	Light Gateway	12.4	15.3	12.7
+Unregulated	Inner Gyre	Pulsar	-22.3	18.5	28.7
+Unregulated	Inner Gyre	Saron`s Shoulder	0.0	0.0	0.0
+Unregulated	Inner Storm	Four Fingers	16.8	-10.7	-6.7
+Unregulated	Inner Storm	Outer Storm	0.0	0.0	0.0
+Unregulated	Inner Storm	Quantar Gate	14.1	-3.2	-0.1
+Unregulated	Klatsches Hold	Great Venure Belt	0.0	0.0	0.0
+Unregulated	Lesser Arm	The Light Crossroads	0.0	0.0	0.0
+Unregulated	Light Gateway	Inner Gyre	0.0	0.0	0.0
+Unregulated	Light Gateway	Outer Gyre	-19.7	18.5	24.5
+Unregulated	Light Gateway	The Light Crossroads	-17.0	3.3	-0.1
+Unregulated	Light Lost	Outskirts	0.3	-15.4	49.9
+Unregulated	Light Lost	Zealots Refuge	0.0	0.0	0.0
+Unregulated	Lothar`s Landing	Far Point	0.0	0.0	0.0
+Unregulated	Outer Gyre	Aman Gate	-8.8	13.6	22.5
+Unregulated	Outer Gyre	Greater Arm	7.1	6.6	5.6
+Unregulated	Outer Gyre	Light Gateway	0.0	0.0	0.0
+Unregulated	Outer Gyre	Pulsar	6.4	17.3	13.6
+Unregulated	Outer Ring	Four Fingers	-22.5	28.5	-6.1
+Unregulated	Outer Ring	Zealots Refuge	0.0	0.0	0.0
+Unregulated	Outer Storm	Inner Storm	0.0	0.0	0.0
+Unregulated	Outskirts	Four Fingers	13.8	4.0	-27.7
+Unregulated	Outskirts	Light Lost	0.0	0.0	0.0
+Unregulated	Outskirts	Saron`s Shoulder	43.6	18.5	-32.3
+Unregulated	Pulsar	Inner Gyre	-11.6	1.7	-10.6
+Unregulated	Pulsar	Outer Gyre	0.0	-5.2	-8.6
+Unregulated	Pulsar	Pulsar Gate	0.0	0.0	0.0
+Unregulated	Pulsar	Saron`s Eye	9.5	4.7	-0.4
+Unregulated	Saron`s Eye	Four Fingers	0.0	0.0	0.0
+Unregulated	Saron`s Eye	Greater Arm	13.1	14.5	-19.4
+Unregulated	Saron`s Eye	Pulsar	-3.1	-4.0	-22.7
+Unregulated	Saron`s Shoulder	Great Barrier Station	0.0	0.0	0.0
+Unregulated	Saron`s Shoulder	Inner Gyre	-12.8	15.3	9.6
+Unregulated	Saron`s Shoulder	Outskirts	-20.6	10.1	-2.8
+Unregulated	The Connexion	Ring View	-1.1	-12.4	39.4
+Unregulated	The Connexion	The Dark Crossroads	-3.1	-19.2	14.9
+Unregulated	The Connexion	The Light Crossroads	0.0	0.0	0.0
+Unregulated	The Connexion	The Stith	21.2	-8.9	15.6
+Unregulated	The Dark Crossroads	The Connexion	0.0	0.0	0.0
+Unregulated	The Dark Crossroads	The Gurge	2.6	-8.9	13.6
+Unregulated	The Light Crossroads	Far Point	0.0	0.0	0.0
+Unregulated	The Light Crossroads	Lesser Arm	32.4	-9.2	-32.8
+Unregulated	The Light Crossroads	Light Gateway	24.3	24.6	-19.2
+Unregulated	The Light Crossroads	The Connexion	11.3	14.6	-10.3
+Unregulated	The Stith	Diluted Reaches	0.0	0.0	0.0
+Unregulated	The Stith	Last Parsec	15.2	-6.9	-8.6
+Unregulated	The Stith	The Connexion	9.9	-21.3	31.3
+Unregulated	Zealots Refuge	Great Venure Belt	-11.5	14.9	52.8
+Unregulated	Zealots Refuge	Light Lost	24.7	-13.7	-54.4
+Unregulated	Zealots Refuge	Outer Ring	4.5	26.4	-17.5
+Unregulated	Zealots Refuge	The Bronci Rift	0.0	0.0	0.0
