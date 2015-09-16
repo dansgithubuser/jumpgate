@@ -7,6 +7,7 @@ parser.add_argument('--roids', default='myrotaroids2.txt')
 parser.add_argument('--gates', default='JG_Gate_Cords_(0.7).txt')
 parser.add_argument('--ideal-distance', type=int, default=100000)
 parser.add_argument('--avoid-space', help='ignore sectors in space that matches supplied regex (case-insensitive)')
+parser.add_argument('--all', action='store_true', help='print all routes being considered')
 args=parser.parse_args()
 
 #helpers
@@ -26,6 +27,11 @@ def at(list, i):
 		return list[i]
 	else:
 		return None
+
+def avoid(sector):
+	if not args.avoid_space: return False
+	import re
+	return re.match(args.avoid_space, sectors[sector].space, re.I)
 
 #parse roids file
 class Roid:
@@ -157,19 +163,22 @@ class Route:
 			self.distance+=x[1]
 			self.route[self.sectors[i]]=x[2]
 
-routes=[Route(i) for i in sectors]
+routes=[Route(i) for i in sectors if not avoid(i)]
 routes=[x for x in routes if x.roids>=1]
 
 #while there is no route which visits enough roids
 while True:
+	#report progress, check if enough roids visisted
+	if args.all:
+		for route in routes:
+			route.report()
+	else:
+		routes[0].report()
+	if routes[0].roids>=args.number: break
 	#append an unvisited unavoided sector to each route
 	new_routes=[]
 	for route in routes:
 		for next_sector in gates[route.sectors[-1]]:
-			def avoid(sector):
-				if not args.avoid_space: return False
-				import re
-				return re.match(args.avoid_space, sectors[sector].space, re.I)
 			if next_sector not in route.sectors and not avoid(next_sector):
 				from copy import deepcopy
 				new_route=deepcopy(route)
@@ -182,6 +191,3 @@ while True:
 		routes=[routes[j] for j in range(len(routes)) if j<=i or routes[j]!=routes[i]]
 		i+=1
 	routes=sorted(routes, key=lambda x: -x.roids/(x.distance+args.ideal_distance))[:len(sectors)]
-	#report progress, check if enough roids visisted
-	routes[0].report()
-	if routes[0].roids>=args.number: break
