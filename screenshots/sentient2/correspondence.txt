@@ -1,0 +1,84 @@
+Zuon to ShaiDen
+sentient activity
+
+...started about 30 minutes ago, ended about 10 minutes ago, Dark Crossroads sector. I engaged and killed something like a c8, 11, 7, 7, 9, some squids and a small jelly storm. Conflux whalesong sounded. I received the following messages:
+
+aGV0JTIwb2YlMjBpcyUyMEl0JTIwbnNuQWFjeWRjZSUyMGFL
+aWdtY29uJTIwZWhueXJadCUyMGlz
+
+screenshots attached.
+
+--------------------------------------------------------------------------------
+
+ShaiDen to Zuon
+Re: sentient activity?
+
+Pilot Zuon -- thank you so much for this.  We've been hearing about sentient activity in Dark Crossroads, but yours is the first real detailed information we have received.  It will be invaluable.  I can't believe it actually "spoke" -- that is incredibly rare.  Hopefully we'll be able to decode this.
+
+One thing you did not mention -- what type of sentient was there?  C8?  C9?
+
+Best Regards,
+
+A. ShaiDen
+
+
+
+Prof. Athena ShaiDen
+Sutonia University
+Dept. of Xenobiology
+
+--------------------------------------------------------------------------------
+
+Zuon to ShaiDen
+sentient activity, mostly decoded
+
+aGV0JTIwb2YlMjBpcyUyMEl0JTIwbnNuQWFjeWRjZSUyMGFL
+aWdtY29uJTIwZWhueXJadCUyMGlz
+
+base64 decode
+
+het%20of%20is%20It%20nsnAacydce%20aK
+igmcon%20ehnyrZt%20is
+
+%20 -> space
+
+het of is It nsnAacydce aK
+igmcon ehnyrZt is
+
+decode word anagrams
+
+the of is It Ascendancy Ka
+coming Zethryn(?)
+
+possible decode of sentence anagram
+
+the Ascendancy of Zethryn(?) Ka, It is coming
+
+Someone better versed in Conflux lore might have a better suggestion than "Zethryn". Zethryn, Zythern, and Zythren at least seem to be possibilities.
+
+--------------------------------------------------------------------------------
+
+ShaiDen to Zuon
+Re: sentient activity, mostly decoded?
+
+Wow, that was fast.
+
+Zethryn/Zythren are not familiar to me but will definitely research this.
+
+
+
+Thank you again.
+
+A. ShaiDen
+
+--------------------------------------------------------------------------------
+
+Zuon to ShaiDen
+Re: sentient activity
+
+I don't think any of the conflux I engaged were sentient. If I had to guess, I'd suggest the C8, but I doubt it. Pilot Sinver may have seen the sent. I think he mentioned, as you suggest, a C8 or C9, but I forget which. I have seen a sentient C9 on multiple occasions, but I didn't see it this time. Don't know if it's the same C9 or different one each time.
+
+My decoding efforts are here for all to see: https://github.com/dansgithubuser/jumpgate
+In particular:
+https://github.com/dansgithubuser/jumpgate/tree/master/screenshots/sentient2
+https://github.com/dansgithubuser/jumpgate/blob/master/sentient-encoding.txt
