@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=honorguardonly by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:52:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer28f4.html?list=honorguardonly by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Pilot Center</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// --------------------------------------------------------
+// Rollover code, v.1.1a
+// --------------------------------------------------------
+// Browser version checking
+var Version=0;
+browsername = navigator.appName;
+version = parseFloat(navigator.appVersion); 
+if (browsername == "Netscape" && version >= 3.0)
+{
+	roll = 'true';
+}
+else if (browsername == "Microsoft Internet Explorer" && version >= 3.0)
+{
+	roll = 'true';
+}
+else
+{
+	roll = 'false';
+}
+// at this point:
+// roll == true if the version of the browser will work
+// roll == false otherwise
+
+if (roll == 'true')
+// the array is only preloaded if the browser can handle javascript rollovers
+{
+	// simple preloading routine
+	arImageSrc = new Array ("../media/button_pilots_over.gif", 
+							"../media/button_squads_over.gif", 
+							"../media/button_login_over.gif", 
+							"../media/button_join_now_over.gif",
+							"../media/button_stats_over.gif");
+	arImageList = new Array ();
+	
+	for (counter in arImageSrc) 
+	{	
+		arImageList[counter] = new Image();
+		arImageList[counter].src = arImageSrc[counter];
+	}
+}
+// end if roll==true
+	
+// hilight and unhilight images code
+// this code assumes that hilighted images have the same name as the normal images
+// plus an '_over' extension... as follows:
+// 			original name = x.gif
+//			rollover name = x_over.gif
+function switchjpg(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+}
+function switchbackjpg(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".jpg";
+	}
+}
+function switchgif(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.gif";
+	}
+}
+function switchbackgif(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".gif";
+	}
+}
+
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+// -->
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="LEFT"></TD>
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Pilot Center</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<P ALIGN="CENTER">
+<B>currently registered TRI pilots</B><BR>
+<FONT SIZE="-1">Filtered by <B><FONT COLOR="#99FF99">'combat pilots'</FONT></B></FONT><BR>
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=1 BGCOLOR="#555555" ALIGN="CENTER" WIDTH="440">
+<TR BGCOLOR="#000000" ALIGN="CENTER"  VALIGN="BOTTOM">
+	<TD><B><IMG SRC="../history/media/logo_small_solrain.gif"><BR>Solrain</B></TD>
+	<TD><B><IMG SRC="../history/media/logo_small_octavius.gif"><BR>Octavius</B></TD>
+	<TD><IMG SRC="../history/media/logo_small_quantar.gif"><BR><B>Quantar</B></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#000022"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf291f291.html?p=AhhClem">AhhClem</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerb52ab52a.html?p=Carmack">Carmack</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf131f131.html?p=Ciedd">Ciedd</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer837c837c.html?p=CLPxP">CLPxP</A><BR><IMG SRC="../media/pixel_99FFFF.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer66516651.html?p=Corona">Corona</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer89448944.html?p=-Fender-">-Fender-</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer9ca59ca5.html?p=Haddock">Haddock</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerfd8bfd8b.html?p=Icefoxen">Icefoxen</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer9b0d9b0d.html?p=Karhu">Karhu</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf1bdf1bd.html?p=Keep">Keep</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerff86ff86.html?p=Malintent">Malintent</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer3b6c3b6c.html?p=Marask">Marask</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer3ca63ca6.html?p=mathc2003">mathc2003</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_merc.gif" WIDTH="10" HEIGHT="10" ALT="Mercenary" BORDER="0"> <A HREF="PilotViewer15811581.html?p=McPlowed">McPlowed</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerd3e4d3e4.html?p=Nezumi">Nezumi</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer900d900d.html?p=SnowGoose">SnowGoose</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer5a53-25a53.html?p=Tasfarel">Tasfarel</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerb8e5b8e5.html?p=Teeleton">Teeleton</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer0798-20798.html?p=usalman">usalman</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerdecadeca.html?p=vulture83">vulture83</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer50bc50bc.html?p=ZeroZ95">ZeroZ95</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer9bd79bd7.html?p=Zico">Zico</A><BR></FONT></TD>
+	<TD BGCOLOR="#220000"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer118b118b.html?p=@zmyth">@zmyth</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerecb5ecb5.html?p=_RAZAAR_">_RAZAAR_</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerc6bfc6bf.html?p=Algore">Algore</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer75807580.html?p=Argyris">Argyris</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer01740174.html?p=AxxeMan">AxxeMan</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer6a2d6a2d.html?p=Ballistic">Ballistic</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerdf00df00.html?p=BIG_IRON">BIG_IRON</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer1aa71aa7.html?p=Brasidas">Brasidas</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer5b7f5b7f.html?p=-Clyde--">-Clyde--</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer86c686c6.html?p=C-note">C-note</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer66046604.html?p=CortexX">CortexX</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer9c3d9c3d.html?p=emp">emp</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer7e367e36.html?p=Gessner">Gessner</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf5e4f5e4.html?p=GodFodder">GodFodder</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerd951d951.html?p=InMe">InMe</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerdeabdeab.html?p=Jimac">Jimac</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer2e7d2e7d.html?p=kakee">kakee</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer58115811.html?p=Matasoft">Matasoft</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer254c254c.html?p=mcbrmx">mcbrmx</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer80558055.html?p=Mikgore">Mikgore</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotVieweree3aee3a.html?p=OmegaOPS">OmegaOPS</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer6b5e6b5e.html?p=purge">purge</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer173b173b.html?p=Rainman">Rainman</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer89078907.html?p=RicoHF">RicoHF</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer76597659.html?p=straken">straken</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewera2dea2de.html?p=Tritian">Tritian</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer18431843.html?p=Viking">Viking</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerbd93bd93.html?p=Voidhog">Voidhog</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerc3a1c3a1.html?p=-Vortex-">-Vortex-</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer60856085.html?p=Wild_Cujo">Wild_Cujo</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer57c257c2.html?p=WITTMANN">WITTMANN</A><BR></FONT></TD>
+	<TD BGCOLOR="#002200"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer74d674d6.html?p=AfterLife">AfterLife</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_merc.gif" WIDTH="10" HEIGHT="10" ALT="Mercenary" BORDER="0"> <A HREF="PilotViewer02440244.html?p=Ambrosius">Ambrosius</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer544d544d.html?p=Bayonette">Bayonette</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer42424242.html?p=Ben16">Ben16</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer2ff72ff7.html?p=CaptainCow">CaptainCow</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer5e345e34.html?p=elgamal">elgamal</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer507a507a.html?p=-Gent30-">-Gent30-</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewera178a178.html?p=Goose">Goose</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerdca2dca2.html?p=Haedel">Haedel</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf05cf05c.html?p=Jaye">Jaye</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer0f100f10.html?p=Kali">Kali</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotVieweree1fee1f.html?p=Kanthakeh">Kanthakeh</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewere2ade2ad.html?p=Kehleyr">Kehleyr</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_merc.gif" WIDTH="10" HEIGHT="10" ALT="Mercenary" BORDER="0"> <A HREF="PilotViewer29892989.html?p=king0815">king0815</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer5ee85ee8.html?p=Korma">Korma</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf102f102.html?p=Kreze">Kreze</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer0b0e0b0e.html?p=learner">learner</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer9bec9bec.html?p=Llewellyn">Llewellyn</A><BR><IMG SRC="../media/pixel_99FFFF.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerd766d766.html?p=Lobruk">Lobruk</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer54715471.html?p=Magoobie">Magoobie</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerb631b631.html?p=Marzz">Marzz</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerf5abf5ab.html?p=Munney">Munney</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer901d901d.html?p=-Murmack-">-Murmack-</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer76f376f3.html?p=protosss">protosss</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerb85cb85c.html?p=REBELL09">REBELL09</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewere614e614.html?p=Reever">Reever</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerfedafeda.html?p=Soltari">Soltari</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerd6b7d6b7.html?p=Tesrend">Tesrend</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerb9e7b9e7.html?p=Ul-Thmo">Ul-Thmo</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer97f397f3.html?p=Vexed">Vexed</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer60066006.html?p=-Vomir-">-Vomir-</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer73507350.html?p=Xenobe">Xenobe</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer8e4b8e4b.html?p=Zenobe">Zenobe</A><BR></FONT></TD>
+</TR>
+</TABLE>
+</P>
+
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+<!-- BEGIN BUTTONS -->
+<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="420" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><A HREF="../news/stats/index.html" onmouseout="switchbackgif('button_stats');" onmouseover="switchgif('button_stats');"><IMG SRC="../media/button_stats.gif" NAME="button_stats" BORDER="0" ALT="Get the latest TRI and pilot statistics" WIDTH="116" HEIGHT="34"></A><A HREF="../squadmanager/index-2.html" onmouseout="switchbackgif('button_squads');" onmouseover="switchgif('button_squads');"><IMG SRC="../media/button_squads.gif" NAME="button_squads" BORDER="0" ALT="Join a squad today!" WIDTH="126" HEIGHT="34"></A><A HREF="../pilot_center.html" onmouseout="switchbackgif('button_pilots');" onmouseover="switchgif('button_pilots');"><IMG SRC="../media/button_pilots.gif" NAME="button_pilots" BORDER="0" WIDTH="130" HEIGHT="34" ALT="Realtime pilot lookups and information"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- END BUTTONS -->
+<BR CLEAR="ALL">
+
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=honorguardonly by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:52:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer28f4.html?list=honorguardonly by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

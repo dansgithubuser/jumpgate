@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/flight_academy/opti.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:34 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/opti.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="web front end by formula - http://www.formula.com">
+	<META NAME="Developer" CONTENT="jumpgate developed by NetDevil - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Flight Academy:Quick Start</TITLE>
+	<LINK REL=stylesheet TYPE="text/css" HREF="../in_game.css">
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"flight_academy");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+</SCRIPT>
+</HEAD>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- Begin Body Content -->
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top">
+	<H1 ALIGN="right">Optimus Command Tools</H1>
+	<P><EM>Greetings, Optimus  ... and congratulations!  Whether serving the Reconstruction, or your faction directly, you have achieved the highest rank your faction has authorized.  You have now been rewarded with the tools of leadership.  Remember:  with power, comes also responsibility.  Your fellow pilots will now look to you as a leader within your faction.  The Optimus rank is more than a trinket.  Carry your burden well.</EM></P>
+	<P ALIGN="CENTER"><IMG SRC="../media/medals/medal196.gif">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../media/medals/medal194.gif">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../media/medals/medal195.gif"></P>
+	<P></P>
+</TD>
+</TR>
+</TABLE>
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top">
+	<P>At the Optimus rank (level 50), pilots are granted a growing series of tools that supply information and abilities to be used to aid one's faction.  Other pilots will increasingly rely on their faction's Optimus pilots for information that will help with planning larger scale operations.  It is intended that these tools will provide the Optimus cadre of a faction with a crucial social role interacting with and leading other pilots in various teamwork activities.</P>
+	<P>Optimus commands may cost either experience points (xp) or Political Rating (PR) to use, or some combination of both. Experience at the Optimus rank is no longer required for promotion, and is used as another measure of factional standing, clout, or prestige.  Each function is unique in its requirements, and details are provided in the description of each tool.  For example, PR may simply be a requirement for access to some tools, rather than a cost for use.   Missions for one's own faction, as well as other activities, act as a continuing source for xp and improving PR even at Optimus rank.<BR><BR></P>
+</TD>
+</TR>
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>Abilities List</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+	
+	<P>The following tools have been made accessible:</P>
+	<P><B>Production Boost Request Tool</b><br><u>Requirements</u>: Be docked at a home faction station that produces the desired commodity or equipment.  You must also have a home faction PR at least 20 and a flight registry other than "Pirate".<br><u>Command Syntax</u>: "/prodboost 'name'", where 'name' is a piece of equipment or commodity.<br>Example: "/prodboost Duelist"<br><u>Result</u>: the production of the commodity at that station will be doubled for a period of about two hours, assuming the necessary components to produce the requested item are present for the duration.<P ALIGN="CENTER"><IMG SRC="media/opti_pb_cmd.jpg"></P><u>Cost</u>: 75000 xp, or 50000 xp if home faction PR is above 100.</P>
+	<P><B>Production Efficiency Info Tool</b><br><u>Requirements</u>: A minimum of 20 PR and any registry other than "Pirate".<br><u>Command Syntax</u>: "/prodefc"<br><u>Result</u>: A listing of the current production efficiency at each of your faction's stations will output in the chat window.<br><P ALIGN="CENTER"><IMG SRC="media/opti_pe_cmd.jpg"></P><u>Cost</u>: 1000 xp.</P>
+	<P><B>Ore Stocks Info Tool</b><br><u>Requirements</u>: A minimum of 20 PR and any registry other than "Pirate".<br><u>Command Syntax</u>: "/oredepots"<br><u>Result</u>: A listing of your faction's existing Ore Depots will output in the chat window, with current ore stocks by type.<br><P ALIGN="CENTER"><IMG SRC="media/opti_od_cmd.jpg"></P><u>Cost</u>: 1000 xp.</P>
+	<P><B>Political Rating Support Tool</b><br><u>Requirements</u>: Be docked in a home faction station. Recipient must be docked in any TRI station and have PR below 90 in your faction. If the cost to use this tool would place you below 0 PR, your request will be denied.<br><u>Command Syntax</u>: "/vouch 'pilotname'"<br><u>Result</u>: Increase recipient's PR with your faction by 10.<P ALIGN="CENTER"><IMG SRC="media/opti_v_cmd.jpg"></P><u>Cost</u>: 500000 xp plus a PR cost that varies based on recipient's faction and PR at time of vouch. PR cost is 20 for your own faction, 30 if from a faction other than your own, but doubled if the recipient is in disfavor (PR already below 0).<br>Examples: For a pilot of your own faction with PR 38, /vouch will cost 20 PR.  For a foreign pilot with PR -5 with your faction, /vouch will cost 60 PR.</P>
+	<P><B>Building Status Messages</b><br>Optimus pilots receive notifications from their faction if any of the faction's buildings come under attack or are destroyed.  It is the duty of the Optimus to pass this information to other factional pilots and repel the attack.<P ALIGN="CENTER"><IMG SRC="media/opti_bi_fn.jpg"></P>
+	<P><B>Military Intel Map</b><br>This is a map screen tool showing which sectors have a foreign military presence, for use in coordinating PvP raids. Data for this tool will rely on beacon control by your faction, and on factional pilots flying Recon missions.<P ALIGN="CENTER"><IMG SRC="media/opti_mi_fn.jpg"></P>
+	
+</TD>
+</TR>
+</TABLE>
+<BR>
+
+<!-- End Body Content -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/flight_academy/opti.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:34 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/opti.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

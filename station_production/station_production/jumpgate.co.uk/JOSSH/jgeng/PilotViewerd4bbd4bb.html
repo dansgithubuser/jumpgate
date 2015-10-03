@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=s by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:51:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewerd4bb.html?list=s by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Pilot Center</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// --------------------------------------------------------
+// Rollover code, v.1.1a
+// --------------------------------------------------------
+// Browser version checking
+var Version=0;
+browsername = navigator.appName;
+version = parseFloat(navigator.appVersion); 
+if (browsername == "Netscape" && version >= 3.0)
+{
+	roll = 'true';
+}
+else if (browsername == "Microsoft Internet Explorer" && version >= 3.0)
+{
+	roll = 'true';
+}
+else
+{
+	roll = 'false';
+}
+// at this point:
+// roll == true if the version of the browser will work
+// roll == false otherwise
+
+if (roll == 'true')
+// the array is only preloaded if the browser can handle javascript rollovers
+{
+	// simple preloading routine
+	arImageSrc = new Array ("../media/button_pilots_over.gif", 
+							"../media/button_squads_over.gif", 
+							"../media/button_login_over.gif", 
+							"../media/button_join_now_over.gif",
+							"../media/button_stats_over.gif");
+	arImageList = new Array ();
+	
+	for (counter in arImageSrc) 
+	{	
+		arImageList[counter] = new Image();
+		arImageList[counter].src = arImageSrc[counter];
+	}
+}
+// end if roll==true
+	
+// hilight and unhilight images code
+// this code assumes that hilighted images have the same name as the normal images
+// plus an '_over' extension... as follows:
+// 			original name = x.gif
+//			rollover name = x_over.gif
+function switchjpg(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+}
+function switchbackjpg(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".jpg";
+	}
+}
+function switchgif(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.gif";
+	}
+}
+function switchbackgif(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".gif";
+	}
+}
+
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+// -->
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="LEFT"></TD>
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Pilot Center</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<P ALIGN="CENTER">
+<B>currently registered TRI pilots</B><BR>
+<FONT SIZE="-1">Filtered by <B><FONT COLOR="#99FF99">'s'</FONT></B></FONT><BR>
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=1 BGCOLOR="#555555" ALIGN="CENTER" WIDTH="440">
+<TR BGCOLOR="#000000" ALIGN="CENTER"  VALIGN="BOTTOM">
+	<TD><B><IMG SRC="../history/media/logo_small_solrain.gif"><BR>Solrain</B></TD>
+	<TD><B><IMG SRC="../history/media/logo_small_octavius.gif"><BR>Octavius</B></TD>
+	<TD><IMG SRC="../history/media/logo_small_quantar.gif"><BR><B>Quantar</B></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#000022"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer0cf80cf8.html?p=samwise">samwise</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer76267626.html?p=scottDel">scottDel</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer2d342d34.html?p=scottTest1">scottTest1</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer9b339b33.html?p=Slamscape">Slamscape</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer50f450f4.html?p=SlyReaper">SlyReaper</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer900d900d.html?p=SnowGoose">SnowGoose</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotVieweree08ee08.html?p=Solaris">Solaris</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerd73bd73b.html?p=starbugg">starbugg</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerab13ab13.html?p=starr">starr</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerce1dce1d.html?p=Stoneman71">Stoneman71</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewere525e525.html?p=Strum">Strum</A><BR></FONT></TD>
+	<TD BGCOLOR="#220000"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewere2bee2be.html?p=schaki">schaki</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerb07bb07b.html?p=scottarius">scottarius</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/pirate.gif" WIDTH="10" HEIGHT="10" ALT="Pirate" BORDER="0"> <A HREF="PilotViewer66ad66ad.html?p=Sebastian">Sebastian</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer0c910c91.html?p=selbie">selbie</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer47384738.html?p=Selkit">Selkit</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer21762176.html?p=Simba">Simba</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerfde8fde8.html?p=SiRaman">SiRaman</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer9a9d9a9d.html?p=SkSlyr">SkSlyr</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer73b273b2.html?p=smith78">smith78</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer7ba07ba0.html?p=Stehlampe6">Stehlampe6</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer49544954.html?p=Stormwind">Stormwind</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer76597659.html?p=straken">straken</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewera10aa10a.html?p=SubZero">SubZero</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer60106010.html?p=Sweithek">Sweithek</A><BR></FONT></TD>
+	<TD BGCOLOR="#002200"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer07e507e5.html?p=Sackett">Sackett</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer090c090c.html?p=sarah-mari">sarah-mari</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer41ff41ff.html?p=Schamane">Schamane</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer8ff98ff9.html?p=Scorn">Scorn</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerf2bbf2bb.html?p=Shire">Shire</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer9cf59cf5.html?p=SlimPickns">SlimPickns</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer66526652.html?p=Smegit">Smegit</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerb97bb97b.html?p=snake173">snake173</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerc4b0c4b0.html?p=Snype">Snype</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewerfedafeda.html?p=Soltari">Soltari</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer07ad07ad.html?p=Spudulike">Spudulike</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer50b750b7.html?p=squint127">squint127</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerca07ca07.html?p=StarDruid">StarDruid</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer45a645a6.html?p=Sten37">Sten37</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/pirate.gif" WIDTH="10" HEIGHT="10" ALT="Pirate" BORDER="0"> <A HREF="PilotViewer225c225c.html?p=Stinkfoot">Stinkfoot</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerabd7abd7.html?p=Stoned">Stoned</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer73c073c0.html?p=Submariner">Submariner</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer41ad41ad.html?p=Surgeion">Surgeion</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer53ba53ba.html?p=Syn">Syn</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewercda7cda7.html?p=Syous">Syous</A><BR></FONT></TD>
+</TR>
+</TABLE>
+</P>
+
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+<!-- BEGIN BUTTONS -->
+<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="420" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><A HREF="../news/stats/index.html" onmouseout="switchbackgif('button_stats');" onmouseover="switchgif('button_stats');"><IMG SRC="../media/button_stats.gif" NAME="button_stats" BORDER="0" ALT="Get the latest TRI and pilot statistics" WIDTH="116" HEIGHT="34"></A><A HREF="../squadmanager/index-2.html" onmouseout="switchbackgif('button_squads');" onmouseover="switchgif('button_squads');"><IMG SRC="../media/button_squads.gif" NAME="button_squads" BORDER="0" ALT="Join a squad today!" WIDTH="126" HEIGHT="34"></A><A HREF="../pilot_center.html" onmouseout="switchbackgif('button_pilots');" onmouseover="switchgif('button_pilots');"><IMG SRC="../media/button_pilots.gif" NAME="button_pilots" BORDER="0" WIDTH="130" HEIGHT="34" ALT="Realtime pilot lookups and information"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- END BUTTONS -->
+<BR CLEAR="ALL">
+
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=s by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:51:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewerd4bb.html?list=s by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

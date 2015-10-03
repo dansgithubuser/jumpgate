@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/squadmanager/new_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:29:51 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/squadmanager/new_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:15:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Create New Squad</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+
+function validate()
+{
+	if(document.forms[0].squadname.value.indexOf("../index.html") >= 0)
+	{
+		alert("'/' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("<") >= 0)
+	{
+		alert("'<' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf(">") >= 0)
+	{
+		alert("'>' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("'") >= 0)
+	{
+		alert("''' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("`") >= 0)
+	{
+		alert("'`' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("\\") >= 0)
+	{
+		alert("'\\' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf(":") >= 0)
+	{
+		alert("Colons are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("=") >= 0)
+	{
+		alert("Equals signs are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("+") >= 0)
+	{
+		alert("Plus signs are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("~") >= 0)
+	{
+		alert("Tildes are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("!") >= 0)
+	{
+		alert("Bangs are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("#") >= 0)
+	{
+		alert("'#'s are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("$") >= 0)
+	{
+		alert("'$'s are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("%") >= 0)
+	{
+		alert("Percent signs are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("^") >= 0)
+	{
+		alert("Carets are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf(";") >= 0)
+	{
+		alert("Semicolons are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("@") >= 0)
+	{
+		alert("'At' signs are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("{") >= 0)
+	{
+		alert("Braces are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("}") >= 0)
+	{
+		alert("Braces are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("[") >= 0)
+	{
+		alert("Brackets are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("]") >= 0)
+	{
+		alert("Brackets are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("(") >= 0)
+	{
+		alert("Parentheses are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf(")") >= 0)
+	{
+		alert("Parentheses are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("*") >= 0)
+	{
+		alert("'*' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf(".") >= 0)
+	{
+		alert("Due to abuse, periods are no longer allowed in a squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("?") >= 0)
+	{
+		alert("'?' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("\"") >= 0)
+	{
+		alert("'\"' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("|") >= 0)
+	{
+		alert("'|' are not allowed in the squadname, please remove them.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+
+	if(document.forms[0].squadname.value.indexOf("Conflux") >= 0)
+	{
+		alert("You have selected a reserved squadname, please try another.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	if(document.forms[0].squadname.value.indexOf("conflux") >= 0)
+	{
+		alert("You have selected a reserved squadname, please try another.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+
+	if(document.forms[0].squadname.value == "")
+	{
+		alert("You need to fill in a squad name.");
+		document.forms[0].squadname.focus();
+		return false;
+	}
+	
+	if(document.forms[0].motto.value == "")
+	{
+		alert("You need to fill in a motto.");
+		document.forms[0].motto.focus();
+		return false;
+	}
+	
+	if(document.forms[0].directive.value == "")
+	{
+		alert("You need to specify a directive.");
+		document.forms[0].directive.focus();
+		return false;	
+	}
+	
+	if(document.forms[0].founder.value == "")
+	{
+		alert("You need to specify a founder.");
+		document.forms[0].founder.focus();
+		return false;
+	}
+		
+	if(document.forms[0].founder.value.indexOf(" ") >= 0)
+	{
+		alert("Spaces are not allowed in the founder field, please remove them.");
+		document.forms[0].founder.focus();
+		return false;
+	}
+
+	if(document.forms[0].password.value.indexOf(" ") >= 0)
+	{
+		alert("Spaces are not allowed in your password, please remove them.");
+		document.forms[0].password.focus();
+		return false;
+	}
+
+	if(document.forms[0].password.value == "")
+	{
+		alert("You need to fill in your password.");
+		document.forms[0].password.focus();
+		return false;
+	}
+		
+	return true;
+}
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Create New Squad</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<!-- BEGIN FORM -->
+<FORM NAME="add_squad" METHOD="POST" ACTION="http://www.jossh.com/jgeng/SquadManager.aspx" ONSUBMIT="return validate();">
+<INPUT TYPE="hidden" NAME="mode" VALUE="add_squad">
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="1" BGCOLOR="#222222" WIDTH="500" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" BGCOLOR="#000000"><FONT SIZE="-1">Please provide TRI with the following information for your new squad.</FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#334466" COLSPAN="2"><B>Register New Squad</B></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#111111">Squad Name<BR>
+	<FONT SIZE="-2">14 characters or less.</FONT></TD>
+	<TD BGCOLOR="#111111"><INPUT TYPE="text" NAME="squadname" MAXLENGTH="14" SIZE="14" VALUE=""></TD>
+</TR>
+
+	<!--<TD BGCOLOR="#111111">Logo</TD><INPUT TYPE="hidden" NAME="logo" ACCEPT="image/jpeg">-->
+
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#111111">Motto<BR>
+	<FONT SIZE="-2">50 characters or less.</FONT></TD>
+	<TD BGCOLOR="#111111"><INPUT TYPE="text" NAME="motto" MAXLENGTH="50" SIZE="30" VALUE=""></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#111111">Directive<BR>
+	<FONT SIZE="-2">A brief description of your squad's<BR>
+	primary missions or goals.</FONT></TD>
+	<TD BGCOLOR="#111111"><TEXTAREA NAME="directive" WRAP="virtual" ROWS="5"></TEXTAREA></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#111111">Founder Callsign<BR>
+	<FONT SIZE="-2">This is the same callsign used in the game.<BR>
+	Only registered pilots of rank 10 or higher<BR>
+	may create squads.</FONT></TD>
+	<TD BGCOLOR="#111111"><INPUT TYPE="text" NAME="founder" MAXLENGTH="10" SIZE="10" VALUE=""></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#111111">Password<BR>
+	<FONT SIZE="-2">This is the same password used in the game.</FONT></TD>
+	<TD BGCOLOR="#111111"><INPUT TYPE="password" NAME="password" MAXLENGTH="9" SIZE="9" VALUE=""></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><FONT SIZE="-1"><B>NOTE:</B> It may take several seconds to register your squad.<BR>
+	Please only push the submit button once.</FONT><BR>
+	<BR>
+	<INPUT TYPE="Image" SRC="../media/make_squad.gif" NAME="Create Squad" VALUE="Create Squad" ALIGN="MIDDLE"></TD>
+</TR>
+</TABLE>
+</FORM>
+<!-- END FORM -->
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/squadmanager/new_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:29:51 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/squadmanager/new_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:15:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

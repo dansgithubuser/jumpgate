@@ -1,0 +1,101 @@
+<HTML>
+
+<!-- Mirrored from www.jossh.com/f_top.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:20 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/f_top.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+<TITLE>Jumpgate(TM) - Framework - Top</TITLE>
+<LINK REL=stylesheet TYPE="text/css" HREF="framework.css">
+</HEAD>
+<BODY BGCOLOR="#000000" ><!-- Aftershock media/f_top.swf 3=100% 4=100% 5 24=3 32 40 --><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0"
+ ID="framemovie" WIDTH=505 HEIGHT=33 CLASS="laserflash">
+  <PARAM NAME="movie" VALUE="media/f_top.swf">
+  <PARAM NAME="bgcolor" VALUE="#000000">
+  <PARAM NAME="menu" VALUE="false">
+  <PARAM NAME="quality" VALUE="high">
+  <PARAM NAME="scale" VALUE="exactfit">
+  <PARAM NAME="play" VALUE="false">
+<EMBED NAME="framemovie" BGCOLOR="#000000" SRC="media/f_top.swf" WIDTH="505" HEIGHT="33" MENU="FALSE" swLiveConnect="TRUE" QUALITY="high" SCALE="exactfit" PLAY="FALSE" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" CLASS="laserflash">
+</EMBED></OBJECT><!-- EndAftershock media/f_top.swf --></BODY>
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+var myMovie = isIE ? framemovie : document.layers[0].document.embeds[0];
+var it_is_safe = false;
+var L4, L3, L2, L1;
+var gLev4,gLev3,gLev2,gLev1;
+
+function waitForMovie(level)
+{
+	if(100 > myMovie.PercentLoaded())
+	{
+		eval("gLev"+level+" = level");
+		setTimeout('waitForMovie(gLev'+level+');',1000);
+		return;
+	}
+	else if(!myMovie.IsPlaying())
+	{
+		eval("gLev"+level+" = level");
+		setTimeout('waitForMovie(gLev'+level+');',1000);
+		return;
+	}
+	
+	it_is_safe = true;
+	
+	eval("tempLoc = L"+level);
+	eval("L"+level+" = null");
+//	alert ("calling again level="+level+", temploc="+tempLoc);
+	updateLocation(level,tempLoc);
+}
+
+function updateLocation(level,loc)
+// level must be a number from 1-4, which will be reversed
+{
+//alert("level="+level+" loc="+loc);
+	if (level == null || loc == null)
+		return;
+
+	if(!it_is_safe)
+	{
+//	alert("not safe");
+		eval("L"+level+" = loc");
+		waitForMovie(level);
+		return;
+	}
+	
+	if (eval("L"+level+" == loc"))
+		return;
+
+		
+	eval("L"+level+" = loc");
+	
+	// switch level to correct num for sw
+	switch(level)
+	{
+		case 2:
+			level = 3;
+			break;
+		case 3:
+			level = 2;
+			break;
+		case 4:
+			level = 1;
+			break;
+		case 1:
+			level = 4;
+			break;
+	}
+							
+	myMovie.TGotoLabel("_level"+level+"/",loc);
+	myMovie.TPlay("_level"+level+"/");
+}		
+
+var exists = true;
+</SCRIPT>
+
+<!-- Mirrored from www.jossh.com/f_top.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:20 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/f_top.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

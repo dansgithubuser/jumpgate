@@ -1,0 +1,456 @@
+<HTML>
+
+<!-- Mirrored from www.jossh.com/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:57:31 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:40:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+<TITLE>Jumpgate(TM) - Database: Best Profits Calculator</TITLE>
+<LINK REL=stylesheet TYPE="text/css" HREF="../../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+var NUMSTATIONS = 19;
+var stationNames = new Array("null","Solrain Core","Solrain Wake","Solrain Cornea","Octavius Core","Octavius Great Pillars","Octavius Outpost","Quantar Core","Quantar Tripoint","Quantar Corridor","Hyperial","Amananth","Lothars Landing","Evenings End","GBS","Klatsches Hold","Solrain Depot","Octavius Depot","Quantar Depot");
+var Stations = new Array(NUMSTATIONS);
+Stations[1] = new Array(NUMSTATIONS);
+Stations[2] = new Array(NUMSTATIONS);
+Stations[3] = new Array(NUMSTATIONS);
+Stations[4] = new Array(NUMSTATIONS);
+Stations[5] = new Array(NUMSTATIONS);
+Stations[6] = new Array(NUMSTATIONS);
+Stations[7] = new Array(NUMSTATIONS);
+Stations[8] = new Array(NUMSTATIONS);
+Stations[9] = new Array(NUMSTATIONS);
+Stations[10] = new Array(NUMSTATIONS);
+Stations[11] = new Array(NUMSTATIONS);
+Stations[12] = new Array(NUMSTATIONS);
+Stations[13] = new Array(NUMSTATIONS);
+Stations[14] = new Array(NUMSTATIONS);
+Stations[15] = new Array(NUMSTATIONS);
+Stations[16] = new Array(NUMSTATIONS);
+Stations[17] = new Array(NUMSTATIONS);
+Stations[18] = new Array(NUMSTATIONS);
+Stations[1][1] = new Array("Solrain Core","Solrain Core","Liar","","",0,0,"None");
+Stations[1][2] = new Array("Solrain Core","Solrain Wake","Liar","","",0,0,"None");
+Stations[1][3] = new Array("Solrain Core","Solrain Cornea","Liar","","",0,0,"None");
+Stations[1][4] = new Array("Solrain Core","Octavius Core","Liar","","",0,0,"None");
+Stations[1][5] = new Array("Solrain Core","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[1][6] = new Array("Solrain Core","Octavius Outpost","Liar","","",0,0,"None");
+Stations[1][7] = new Array("Solrain Core","Quantar Core","Liar","","",0,0,"None");
+Stations[1][8] = new Array("Solrain Core","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[1][9] = new Array("Solrain Core","Quantar Corridor","Liar","","",0,0,"None");
+Stations[1][10] = new Array("Solrain Core","Hyperial","Liar","","",0,0,"None");
+Stations[1][11] = new Array("Solrain Core","Amananth","Liar","","",0,0,"None");
+Stations[1][12] = new Array("Solrain Core","Lothars Landing","Liar","","",0,0,"None");
+Stations[1][13] = new Array("Solrain Core","Evenings End","Liar","","",0,0,"None");
+Stations[1][14] = new Array("Solrain Core","GBS","Liar","","",0,0,"None");
+Stations[1][15] = new Array("Solrain Core","Klatsches Hold","Liar","","",0,0,"None");
+Stations[1][16] = new Array("Solrain Core","Solrain SDS","Liar","","",0,0,"None");
+Stations[1][17] = new Array("Solrain Core","Octavius SDS","Liar","","",0,0,"None");
+Stations[1][18] = new Array("Solrain Core","Quantar SDS","Liar","","",0,0,"None");
+Stations[2][1] = new Array("Solrain Wake","Solrain Core","Liar","","",0,0,"None");
+Stations[2][2] = new Array("Solrain Wake","Solrain Wake","Liar","","",0,0,"None");
+Stations[2][3] = new Array("Solrain Wake","Solrain Cornea","Liar","","",0,0,"None");
+Stations[2][4] = new Array("Solrain Wake","Octavius Core","Liar","","",0,0,"None");
+Stations[2][5] = new Array("Solrain Wake","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[2][6] = new Array("Solrain Wake","Octavius Outpost","Liar","","",0,0,"None");
+Stations[2][7] = new Array("Solrain Wake","Quantar Core","Liar","","",0,0,"None");
+Stations[2][8] = new Array("Solrain Wake","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[2][9] = new Array("Solrain Wake","Quantar Corridor","Liar","","",0,0,"None");
+Stations[2][10] = new Array("Solrain Wake","Hyperial","Liar","","",0,0,"None");
+Stations[2][11] = new Array("Solrain Wake","Amananth","Liar","","",0,0,"None");
+Stations[2][12] = new Array("Solrain Wake","Lothars Landing","Liar","","",0,0,"None");
+Stations[2][13] = new Array("Solrain Wake","Evenings End","Liar","","",0,0,"None");
+Stations[2][14] = new Array("Solrain Wake","GBS","Liar","","",0,0,"None");
+Stations[2][15] = new Array("Solrain Wake","Klatsches Hold","Liar","","",0,0,"None");
+Stations[2][16] = new Array("Solrain Wake","Solrain SDS","Liar","","",0,0,"None");
+Stations[2][17] = new Array("Solrain Wake","Octavius SDS","Liar","","",0,0,"None");
+Stations[2][18] = new Array("Solrain Wake","Quantar SDS","Liar","","",0,0,"None");
+Stations[3][1] = new Array("Solrain Cornea","Solrain Core","Liar","","",0,0,"None");
+Stations[3][2] = new Array("Solrain Cornea","Solrain Wake","Liar","","",0,0,"None");
+Stations[3][3] = new Array("Solrain Cornea","Solrain Cornea","Liar","","",0,0,"None");
+Stations[3][4] = new Array("Solrain Cornea","Octavius Core","Liar","","",0,0,"None");
+Stations[3][5] = new Array("Solrain Cornea","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[3][6] = new Array("Solrain Cornea","Octavius Outpost","Liar","","",0,0,"None");
+Stations[3][7] = new Array("Solrain Cornea","Quantar Core","Liar","","",0,0,"None");
+Stations[3][8] = new Array("Solrain Cornea","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[3][9] = new Array("Solrain Cornea","Quantar Corridor","Liar","","",0,0,"None");
+Stations[3][10] = new Array("Solrain Cornea","Hyperial","Liar","","",0,0,"None");
+Stations[3][11] = new Array("Solrain Cornea","Amananth","Liar","","",0,0,"None");
+Stations[3][12] = new Array("Solrain Cornea","Lothars Landing","Liar","","",0,0,"None");
+Stations[3][13] = new Array("Solrain Cornea","Evenings End","Liar","","",0,0,"None");
+Stations[3][14] = new Array("Solrain Cornea","GBS","Liar","","",0,0,"None");
+Stations[3][15] = new Array("Solrain Cornea","Klatsches Hold","Liar","","",0,0,"None");
+Stations[3][16] = new Array("Solrain Cornea","Solrain SDS","Liar","","",0,0,"None");
+Stations[3][17] = new Array("Solrain Cornea","Octavius SDS","Liar","","",0,0,"None");
+Stations[3][18] = new Array("Solrain Cornea","Quantar SDS","Liar","","",0,0,"None");
+Stations[4][1] = new Array("Octavius Core","Solrain Core","Liar","","",0,0,"None");
+Stations[4][2] = new Array("Octavius Core","Solrain Wake","Liar","","",0,0,"None");
+Stations[4][3] = new Array("Octavius Core","Solrain Cornea","Liar","","",0,0,"None");
+Stations[4][4] = new Array("Octavius Core","Octavius Core","Liar","","",0,0,"None");
+Stations[4][5] = new Array("Octavius Core","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[4][6] = new Array("Octavius Core","Octavius Outpost","Liar","","",0,0,"None");
+Stations[4][7] = new Array("Octavius Core","Quantar Core","Liar","","",0,0,"None");
+Stations[4][8] = new Array("Octavius Core","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[4][9] = new Array("Octavius Core","Quantar Corridor","Liar","","",0,0,"None");
+Stations[4][10] = new Array("Octavius Core","Hyperial","Liar","","",0,0,"None");
+Stations[4][11] = new Array("Octavius Core","Amananth","Liar","","",0,0,"None");
+Stations[4][12] = new Array("Octavius Core","Lothars Landing","Liar","","",0,0,"None");
+Stations[4][13] = new Array("Octavius Core","Evenings End","Liar","","",0,0,"None");
+Stations[4][14] = new Array("Octavius Core","GBS","Liar","","",0,0,"None");
+Stations[4][15] = new Array("Octavius Core","Klatsches Hold","Liar","","",0,0,"None");
+Stations[4][16] = new Array("Octavius Core","Solrain SDS","Liar","","",0,0,"None");
+Stations[4][17] = new Array("Octavius Core","Octavius SDS","Liar","","",0,0,"None");
+Stations[4][18] = new Array("Octavius Core","Quantar SDS","Liar","","",0,0,"None");
+Stations[5][1] = new Array("Octavius Great Pillars","Solrain Core","Liar","","",0,0,"None");
+Stations[5][2] = new Array("Octavius Great Pillars","Solrain Wake","Liar","","",0,0,"None");
+Stations[5][3] = new Array("Octavius Great Pillars","Solrain Cornea","Liar","","",0,0,"None");
+Stations[5][4] = new Array("Octavius Great Pillars","Octavius Core","Liar","","",0,0,"None");
+Stations[5][5] = new Array("Octavius Great Pillars","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[5][6] = new Array("Octavius Great Pillars","Octavius Outpost","Liar","","",0,0,"None");
+Stations[5][7] = new Array("Octavius Great Pillars","Quantar Core","Liar","","",0,0,"None");
+Stations[5][8] = new Array("Octavius Great Pillars","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[5][9] = new Array("Octavius Great Pillars","Quantar Corridor","Liar","","",0,0,"None");
+Stations[5][10] = new Array("Octavius Great Pillars","Hyperial","Liar","","",0,0,"None");
+Stations[5][11] = new Array("Octavius Great Pillars","Amananth","Liar","","",0,0,"None");
+Stations[5][12] = new Array("Octavius Great Pillars","Lothars Landing","Liar","","",0,0,"None");
+Stations[5][13] = new Array("Octavius Great Pillars","Evenings End","Liar","","",0,0,"None");
+Stations[5][14] = new Array("Octavius Great Pillars","GBS","Liar","","",0,0,"None");
+Stations[5][15] = new Array("Octavius Great Pillars","Klatsches Hold","Liar","","",0,0,"None");
+Stations[5][16] = new Array("Octavius Great Pillars","Solrain SDS","Liar","","",0,0,"None");
+Stations[5][17] = new Array("Octavius Great Pillars","Octavius SDS","Liar","","",0,0,"None");
+Stations[5][18] = new Array("Octavius Great Pillars","Quantar SDS","Liar","","",0,0,"None");
+Stations[6][1] = new Array("Octavius Outpost","Solrain Core","Liar","","",0,0,"None");
+Stations[6][2] = new Array("Octavius Outpost","Solrain Wake","Liar","","",0,0,"None");
+Stations[6][3] = new Array("Octavius Outpost","Solrain Cornea","Liar","","",0,0,"None");
+Stations[6][4] = new Array("Octavius Outpost","Octavius Core","Liar","","",0,0,"None");
+Stations[6][5] = new Array("Octavius Outpost","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[6][6] = new Array("Octavius Outpost","Octavius Outpost","Liar","","",0,0,"None");
+Stations[6][7] = new Array("Octavius Outpost","Quantar Core","Liar","","",0,0,"None");
+Stations[6][8] = new Array("Octavius Outpost","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[6][9] = new Array("Octavius Outpost","Quantar Corridor","Liar","","",0,0,"None");
+Stations[6][10] = new Array("Octavius Outpost","Hyperial","Liar","","",0,0,"None");
+Stations[6][11] = new Array("Octavius Outpost","Amananth","Liar","","",0,0,"None");
+Stations[6][12] = new Array("Octavius Outpost","Lothars Landing","Liar","","",0,0,"None");
+Stations[6][13] = new Array("Octavius Outpost","Evenings End","Liar","","",0,0,"None");
+Stations[6][14] = new Array("Octavius Outpost","GBS","Liar","","",0,0,"None");
+Stations[6][15] = new Array("Octavius Outpost","Klatsches Hold","Liar","","",0,0,"None");
+Stations[6][16] = new Array("Octavius Outpost","Solrain SDS","Liar","","",0,0,"None");
+Stations[6][17] = new Array("Octavius Outpost","Octavius SDS","Liar","","",0,0,"None");
+Stations[6][18] = new Array("Octavius Outpost","Quantar SDS","Liar","","",0,0,"None");
+Stations[7][1] = new Array("Quantar Core","Solrain Core","Liar","","",0,0,"None");
+Stations[7][2] = new Array("Quantar Core","Solrain Wake","Liar","","",0,0,"None");
+Stations[7][3] = new Array("Quantar Core","Solrain Cornea","Liar","","",0,0,"None");
+Stations[7][4] = new Array("Quantar Core","Octavius Core","Liar","","",0,0,"None");
+Stations[7][5] = new Array("Quantar Core","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[7][6] = new Array("Quantar Core","Octavius Outpost","Liar","","",0,0,"None");
+Stations[7][7] = new Array("Quantar Core","Quantar Core","Liar","","",0,0,"None");
+Stations[7][8] = new Array("Quantar Core","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[7][9] = new Array("Quantar Core","Quantar Corridor","Liar","","",0,0,"None");
+Stations[7][10] = new Array("Quantar Core","Hyperial","Liar","","",0,0,"None");
+Stations[7][11] = new Array("Quantar Core","Amananth","Liar","","",0,0,"None");
+Stations[7][12] = new Array("Quantar Core","Lothars Landing","Liar","","",0,0,"None");
+Stations[7][13] = new Array("Quantar Core","Evenings End","Liar","","",0,0,"None");
+Stations[7][14] = new Array("Quantar Core","GBS","Liar","","",0,0,"None");
+Stations[7][15] = new Array("Quantar Core","Klatsches Hold","Liar","","",0,0,"None");
+Stations[7][16] = new Array("Quantar Core","Solrain SDS","Liar","","",0,0,"None");
+Stations[7][17] = new Array("Quantar Core","Octavius SDS","Liar","","",0,0,"None");
+Stations[7][18] = new Array("Quantar Core","Quantar SDS","Liar","","",0,0,"None");
+Stations[8][1] = new Array("Quantar TriPoint","Solrain Core","Liar","","",0,0,"None");
+Stations[8][2] = new Array("Quantar TriPoint","Solrain Wake","Liar","","",0,0,"None");
+Stations[8][3] = new Array("Quantar TriPoint","Solrain Cornea","Liar","","",0,0,"None");
+Stations[8][4] = new Array("Quantar TriPoint","Octavius Core","Liar","","",0,0,"None");
+Stations[8][5] = new Array("Quantar TriPoint","Octavius Great Pillars","Liar","","",0,0,"None");
+Stations[8][6] = new Array("Quantar TriPoint","Octavius Outpost","Liar","","",0,0,"None");
+Stations[8][7] = new Array("Quantar TriPoint","Quantar Core","Liar","","",0,0,"None");
+Stations[8][8] = new Array("Quantar TriPoint","Quantar TriPoint","Liar","","",0,0,"None");
+Stations[8][9] = new Array("Quantar TriPoint","Quantar Corridor","Liar","","",0,0,"None");
+Stations[8][10] = new Array("Quantar TriPoint","Hyperial","Liar","","",0,0,"None");
+Stations[8][11] = new Array("Quantar TriPoint","Amananth","Liar","","",0,0,"None");
+Stations[8][12] = new Array("Quantar TriPoint","Lothars Landing","Liar","","",0,0,"None");
+Stations[8][13] = new Array("Quantar TriPoint","Evenings End","Liar","","",0,0,"None");
+Stations[8][14] = new Array("Quantar TriPoint","GBS","Liar","","",0,0,"None");
+Stations[8][15] = new Array("Quantar TriPoint","Klatsches Hold","Liar","","",0,0,"None");
+Stations[8][16] = new Array("Quantar TriPoint","Solrain SDS","Liar","","",0,0,"None");
+Stations[8][17] = new Array("Quantar TriPoint","Octavius SDS","Liar","","",0,0,"None");
+Stations[8][18] = new Array("Quantar TriPoint","Quantar SDS","Liar","","",0,0,"None");
+Stations[9][1] = new Array("Quantar Corridor","Solrain Core","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][2] = new Array("Quantar Corridor","Solrain Wake","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][3] = new Array("Quantar Corridor","Solrain Cornea","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][4] = new Array("Quantar Corridor","Octavius Core","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][5] = new Array("Quantar Corridor","Octavius Great Pillars","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][6] = new Array("Quantar Corridor","Octavius Outpost","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][7] = new Array("Quantar Corridor","Quantar Core","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][8] = new Array("Quantar Corridor","Quantar TriPoint","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][9] = new Array("Quantar Corridor","Quantar Corridor","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][10] = new Array("Quantar Corridor","Hyperial","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][11] = new Array("Quantar Corridor","Amananth","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][12] = new Array("Quantar Corridor","Lothars Landing","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][13] = new Array("Quantar Corridor","Evenings End","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][14] = new Array("Quantar Corridor","GBS","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][15] = new Array("Quantar Corridor","Klatsches Hold","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][16] = new Array("Quantar Corridor","Solrain SDS","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][17] = new Array("Quantar Corridor","Octavius SDS","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[9][18] = new Array("Quantar Corridor","Quantar SDS","Water","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][1] = new Array("Hyperial","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][2] = new Array("Hyperial","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][3] = new Array("Hyperial","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][4] = new Array("Hyperial","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][5] = new Array("Hyperial","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][6] = new Array("Hyperial","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][7] = new Array("Hyperial","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][8] = new Array("Hyperial","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][9] = new Array("Hyperial","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][10] = new Array("Hyperial","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][11] = new Array("Hyperial","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][12] = new Array("Hyperial","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][13] = new Array("Hyperial","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][14] = new Array("Hyperial","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][15] = new Array("Hyperial","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][16] = new Array("Hyperial","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][17] = new Array("Hyperial","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[10][18] = new Array("Hyperial","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][1] = new Array("Amananth","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][2] = new Array("Amananth","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][3] = new Array("Amananth","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][4] = new Array("Amananth","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][5] = new Array("Amananth","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][6] = new Array("Amananth","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][7] = new Array("Amananth","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][8] = new Array("Amananth","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][9] = new Array("Amananth","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][10] = new Array("Amananth","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][11] = new Array("Amananth","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][12] = new Array("Amananth","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][13] = new Array("Amananth","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][14] = new Array("Amananth","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][15] = new Array("Amananth","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][16] = new Array("Amananth","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][17] = new Array("Amananth","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[11][18] = new Array("Amananth","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][1] = new Array("Lothars Landing","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][2] = new Array("Lothars Landing","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][3] = new Array("Lothars Landing","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][4] = new Array("Lothars Landing","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][5] = new Array("Lothars Landing","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][6] = new Array("Lothars Landing","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][7] = new Array("Lothars Landing","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][8] = new Array("Lothars Landing","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][9] = new Array("Lothars Landing","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][10] = new Array("Lothars Landing","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][11] = new Array("Lothars Landing","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][12] = new Array("Lothars Landing","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][13] = new Array("Lothars Landing","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][14] = new Array("Lothars Landing","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][15] = new Array("Lothars Landing","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][16] = new Array("Lothars Landing","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][17] = new Array("Lothars Landing","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[12][18] = new Array("Lothars Landing","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][1] = new Array("Evenings End","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][2] = new Array("Evenings End","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][3] = new Array("Evenings End","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][4] = new Array("Evenings End","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][5] = new Array("Evenings End","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][6] = new Array("Evenings End","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][7] = new Array("Evenings End","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][8] = new Array("Evenings End","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][9] = new Array("Evenings End","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][10] = new Array("Evenings End","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][11] = new Array("Evenings End","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][12] = new Array("Evenings End","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][13] = new Array("Evenings End","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][14] = new Array("Evenings End","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][15] = new Array("Evenings End","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][16] = new Array("Evenings End","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][17] = new Array("Evenings End","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[13][18] = new Array("Evenings End","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][1] = new Array("GBS","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][2] = new Array("GBS","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][3] = new Array("GBS","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][4] = new Array("GBS","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][5] = new Array("GBS","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][6] = new Array("GBS","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][7] = new Array("GBS","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][8] = new Array("GBS","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][9] = new Array("GBS","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][10] = new Array("GBS","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][11] = new Array("GBS","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][12] = new Array("GBS","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][13] = new Array("GBS","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][14] = new Array("GBS","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][15] = new Array("GBS","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][16] = new Array("GBS","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][17] = new Array("GBS","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[14][18] = new Array("GBS","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][1] = new Array("Klatsches Hold","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][2] = new Array("Klatsches Hold","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][3] = new Array("Klatsches Hold","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][4] = new Array("Klatsches Hold","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][5] = new Array("Klatsches Hold","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][6] = new Array("Klatsches Hold","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][7] = new Array("Klatsches Hold","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][8] = new Array("Klatsches Hold","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][9] = new Array("Klatsches Hold","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][10] = new Array("Klatsches Hold","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][11] = new Array("Klatsches Hold","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][12] = new Array("Klatsches Hold","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][13] = new Array("Klatsches Hold","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][14] = new Array("Klatsches Hold","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][15] = new Array("Klatsches Hold","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][16] = new Array("Klatsches Hold","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][17] = new Array("Klatsches Hold","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[15][18] = new Array("Klatsches Hold","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][1] = new Array("Solrain SDS","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][2] = new Array("Solrain SDS","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][3] = new Array("Solrain SDS","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][4] = new Array("Solrain SDS","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][5] = new Array("Solrain SDS","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][6] = new Array("Solrain SDS","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][7] = new Array("Solrain SDS","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][8] = new Array("Solrain SDS","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][9] = new Array("Solrain SDS","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][10] = new Array("Solrain SDS","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][11] = new Array("Solrain SDS","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][12] = new Array("Solrain SDS","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][13] = new Array("Solrain SDS","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][14] = new Array("Solrain SDS","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][15] = new Array("Solrain SDS","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][16] = new Array("Solrain SDS","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][17] = new Array("Solrain SDS","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[16][18] = new Array("Solrain SDS","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][1] = new Array("Octavius SDS","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][2] = new Array("Octavius SDS","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][3] = new Array("Octavius SDS","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][4] = new Array("Octavius SDS","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][5] = new Array("Octavius SDS","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][6] = new Array("Octavius SDS","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][7] = new Array("Octavius SDS","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][8] = new Array("Octavius SDS","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][9] = new Array("Octavius SDS","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][10] = new Array("Octavius SDS","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][11] = new Array("Octavius SDS","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][12] = new Array("Octavius SDS","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][13] = new Array("Octavius SDS","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][14] = new Array("Octavius SDS","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][15] = new Array("Octavius SDS","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][16] = new Array("Octavius SDS","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][17] = new Array("Octavius SDS","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[17][18] = new Array("Octavius SDS","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][1] = new Array("Quantar SDS","Solrain Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][2] = new Array("Quantar SDS","Solrain Wake","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][3] = new Array("Quantar SDS","Solrain Cornea","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][4] = new Array("Quantar SDS","Octavius Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][5] = new Array("Quantar SDS","Octavius Great Pillars","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][6] = new Array("Quantar SDS","Octavius Outpost","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][7] = new Array("Quantar SDS","Quantar Core","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][8] = new Array("Quantar SDS","Quantar TriPoint","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][9] = new Array("Quantar SDS","Quantar Corridor","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][10] = new Array("Quantar SDS","Hyperial","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][11] = new Array("Quantar SDS","Amananth","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][12] = new Array("Quantar SDS","Lothars Landing","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][13] = new Array("Quantar SDS","Evenings End","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][14] = new Array("Quantar SDS","GBS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][15] = new Array("Quantar SDS","Klatsches Hold","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][16] = new Array("Quantar SDS","Solrain SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][17] = new Array("Quantar SDS","Octavius SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+Stations[18][18] = new Array("Quantar SDS","Quantar SDS","Liar","../commodities/Water.html","../commodities/media/small/item0.gif",40,1832,"None");
+function ShowProfitables(station)
+{
+station++;
+var popup = window.open('','popupwin');
+var doc = popup.document;
+doc.writeln('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">');doc.writeln('<HTML><HEAD>');doc.writeln('<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">');doc.writeln('<TITLE>Jumpgate(TM) - Database:Profit Calculator</TITLE>');doc.writeln('<LINK REL=stylesheet TYPE="text/css" HREF="../../in_game.css">');doc.writeln('</HEAD>');doc.writeln('<SCRIPT LANGUAGE="JavaScript">');doc.writeln('var isIE = navigator.appName.indexOf("Microsoft") != -1;');doc.writeln('function updateLocation()');doc.writeln('{');doc.writeln('if (top.JG_top && top.JG_top.exists)');doc.writeln('{');doc.writeln('top.JG_top.updateLocation(2,"database");');doc.writeln('top.JG_top.updateLocation(3,"stations");');doc.writeln('}');doc.writeln('}');doc.writeln('</SCRIPT>');doc.writeln('<BODY BACKGROUND="../../media/background.gif" onLoad="updateLocation();">');doc.writeln('<CENTER><TABLE CELLPADDING="1" CELLSPACING="1" BGCOLOR="#333333" BORDER=0 ALIGN="CENTER" WIDTH="500">');
+doc.writeln('<TR><TD BGCOLOR="#334466" ALIGN="LEFT" COLSPAN="6"><FONT SIZE="+1">Highest Profit Cargo Runs from ' + stationNames[station] + '</FONT></TD></TR>');
+doc.writeln('<TR><TD BGCOLOR="#000000" ALIGN="CENTER">Destination</TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="CENTER" COLSPAN="2">Codename</TD>');
+doc.writeln('<TD BGCOLOR="#222222" ALIGN="CENTER">Profit per Unit</TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="CENTER">Amount - This Station</TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="CENTER">Cost - This Station</TD></TR>');
+for(var i = 1; i < NUMSTATIONS; i++) {
+if(Stations[station][i][7] == "None" && i != station && Stations[station][i][1] != "")
+{
+doc.writeln('<TR><TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">' + Stations[station][i][1] + '</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="LEFT" WIDTH="20"></TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="LEFT" WIDTH="80"><FONT SIZE="-1">n/a</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#111111" WIDTH="100"><FONT SIZE="-1">None</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">n/a</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">n/a</FONT></TD>');
+doc.writeln('</TR>');}
+else if(i != station && Stations[station][i][1] != "")
+{
+doc.writeln('<TR><TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">' + Stations[station][i][1] + '</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="LEFT" WIDTH="20"><A HREF="%27%20%2b%20Stations%5bstation%5d%5bi%5d%5b3%5d%20%2b%20%27.html"><IMG SRC="%27%20%2b%20Stations%5bstation%5d%5bi%5d%5b4%5d%20%2b%20%27.html"  ALT="' + Stations[station][i][2] + '" BORDER="0" ALIGN="MIDDLE"></A></TD>');
+doc.writeln('<TD BGCOLOR="#000000" ALIGN="LEFT" WIDTH="80"><FONT SIZE="-1"><A HREF="%27%20%2b%20Stations%5bstation%5d%5bi%5d%5b3%5d%20%2b%20%27.html">' + Stations[station][i][2] + '</A></FONT></TD>');
+doc.writeln('<TD BGCOLOR="#111111" WIDTH="100"><FONT SIZE="-1">' + Stations[station][i][7] + '</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">' + Stations[station][i][5] + '</FONT></TD>');
+doc.writeln('<TD BGCOLOR="#000000" WIDTH="100"><FONT SIZE="-1">' + Stations[station][i][6] + '</FONT></TD>');
+doc.writeln('</TR>');
+}
+}
+doc.writeln('</TABLE><BR><CENTER><FONT SIZE="-1">Note: "n/a" indicates that no profit can be made bringing commodities to that destination</FONT></CENTER></BODY>
+<!-- Mirrored from www.jossh.com/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:57:32 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:40:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>');
+doc.close();
+}
+function updateLocation()
+{
+if (top.JG_top && top.JG_top.exists)
+{
+top.JG_top.updateLocation(2,"database");
+top.JG_top.updateLocation(3,"stations");
+}
+}
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+<BODY BACKGROUND="../../media/background.gif" onLoad="updateLocation();">
+<BR><BR><TABLE CELLPADDING="3" CELLSPACING="1" BORDER="0" BGCOLOR="#222222" ALIGN="CENTER" WIDTH="500">
+<TR BGCOLOR="#000000" VALIGN="TOP" ALIGN="CENTER">
+<TD BGCOLOR="#222222" ROWSPAN="17" WIDTH="4"><IMG SRC="../../media/pixel.gif" WIDTH=1 HEIGHT=1 ALT="" BORDER="0"></TD>
+<TD BGCOLOR="#222222"><B>Best Profit Calculator for Transported Commodities</B></TD>
+</TR>
+<TR>
+<TD BGCOLOR="#222222"><IMG SRC="../../media/pixel.gif" WIDTH=1 HEIGHT=1 ALT="" BORDER="0"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP" ALIGN="CENTER">
+<TD>
+<BR>
+<FORM NAME="ChooseStation">
+<SELECT NAME="station">
+<OPTION>Solrain Core
+<OPTION>Solrain Wake
+<OPTION>Solrain Cornea
+<OPTION>Octavius Core
+<OPTION>Octavius Great Pillars
+<OPTION>Octavius Outpost
+<OPTION>Quantar Core
+<OPTION>Quantar TriPoint
+<OPTION>Quantar Corridor
+<OPTION>Hyperial
+<OPTION>Amananth
+<OPTION>Lothars Landing
+<OPTION>Evenings End
+<OPTION>GBS
+<OPTION>Klatsches Hold
+<OPTION>Solrain SDS
+<OPTION>Octavius SDS
+<OPTION>Quantar SDS
+</SELECT>
+<INPUT TYPE="submit" VALUE="Submit" onClick="ShowProfitables(document.ChooseStation.station.selectedIndex);">
+</FORM>
+<p>
+Select the station you are on from the drop down list above to view the most profitable items to take to any other station.
+</TD>
+</TR>
+</TABLE>
+<TABLE ALIGN="CENTER" WIDTH="500"><TR><TD BGCOLOR="000000"><CENTER><FONT SIZE="-2">Last updated on 111.2.21.12:55.0 TRI</FONT></CENTER></TD></TR></TABLE><TABLE ALIGN="CENTER" WIDTH="500"><TR><TD BGCOLOR="000000" ALIGN="RIGHT"><FONT SIZE="-2">ver.1.6</FONT></TD></TR></TABLE></BODY>
+
+<!-- Mirrored from www.jossh.com/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:57:32 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/database/inventory/profit.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:40:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

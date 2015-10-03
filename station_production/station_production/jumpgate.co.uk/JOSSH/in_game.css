@@ -1,0 +1,133 @@
+P  {
+	color : #FFFFFF;
+	font-family : Arial;
+}
+
+H1  {
+	color : #FFFFFF;
+	font-size : 18 pt;
+	font-family : Arial;
+	font-weight : bold;
+}
+
+H2  {
+	color : #FFFFFF;
+	font-size : 14 pt;
+	font-family : Arial;
+	font-weight : bold;
+}
+
+A  {
+	color : #00CCFF;
+	text-decoration : none;
+}
+
+A:Active  {
+	color : #00FF99;
+}
+
+A:Hover  {
+	color : #00FF99;
+}
+
+BODY  {
+	font-family : Arial;
+	color : #FFFFFF;
+	background-color : #000000;
+	margin : 0;
+	padding : 0;
+}
+
+.speclabel  {
+	color : #CCCC99;
+	font-size : 10pt;
+	font-family : Arial;
+}
+
+.specvalue  {
+	color : #FFFFFF;
+	font-family : Courier New;
+	font-size : 10pt;
+}
+
+TD  {
+	font-family : Arial;
+	color : #FFFFFF;
+}
+
+.dbdescription  {
+	font-size : 10pt;
+	font-family : Arial;
+	color : #FFFFFF;
+}
+
+.plabel  {
+	color : #CCCC99;
+	font-family : Arial;
+	font-size : 15pt;
+	font-weight : bold;
+}
+
+.tableheading  {
+	color : #CCCC99;
+	font-family : Arial;
+	font-size : 16pt;
+	font-weight : bold;
+}
+
+.huggyflash {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.stat {
+	color : #FFFFFF;
+	font-size : 10pt;
+}
+
+.statgood {
+	color : #FFFFCC;
+	font-size : 10pt;
+}
+
+.statbad {
+	color : #FF6655;
+	font-size : 10pt;
+}
+
+.statcat {
+	background-color : #444444;
+	font-weight: bold;
+	text-align: left;
+	font-size : 10pt;
+}
+
+.stat_small {
+	color : #FFFFFF;
+	font-size : 8pt;
+}
+
+.statgood_small {
+	color : #FFFFCC;
+	font-size : 8pt;
+}
+
+.statbad_small {
+	color : #FF6655;
+	font-size : 8pt;
+}
+
+.statcat_small {
+	background-color : #444444;
+	font-weight: bold;
+	text-align: left;
+	font-size : 8pt;
+}
+
+.stathead {
+	background-color : #334466;
+	font-weight: bold;
+	text-align: left;
+	font-size : 10pt;
+}

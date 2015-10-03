@@ -1,0 +1,55 @@
+HTTrack3.43-9+htsswf+htsjava launched on Sat, 19 Sep 2015 13:37:06 at http://jumpgate.co.uk/JOSSH/terminal_civilian.html +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" http://jumpgate.co.uk/JOSSH/terminal_civilian.html -O1 D:\files\Games\Jumpgate\_notes\station_production\station_production +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:37:07	Warning: 	File not parsed, looks like binary: jumpgate.co.uk/robots.txt
+13:59:17	Error: 	"Not Found" (404) at link jumpgate.co.uk/twitter.com/javascripts/blogger.js (from jumpgate.co.uk/JOSSH/outreach/tweets.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C13.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C14.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C15.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C16.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C17.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C18.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C19.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C20.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C21.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C22.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C23.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C24.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C25.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C26.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:05	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/conflux/C27.html (from jumpgate.co.uk/JOSSH/database/conflux/index.html)
+14:07:27	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/commodities/iron.html (from jumpgate.co.uk/JOSSH/database/commodities/index.html)
+14:07:38	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/commodities/silicon.html (from jumpgate.co.uk/JOSSH/database/commodities/index.html)
+14:07:46	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/ECM/index-2.html (from jumpgate.co.uk/JOSSH/flight_academy/market.html)
+14:07:46	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/MODx/index-2.html (from jumpgate.co.uk/JOSSH/flight_academy/market.html)
+14:07:46	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/Conflux/index-2.html (from jumpgate.co.uk/JOSSH/flight_academy/conflux.html)
+14:15:04	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/commodities/Iron-2.html (from jumpgate.co.uk/JOSSH/database/inventory/Solrain_Core.html)
+14:15:04	Error: 	"Not Found" (404) at link jumpgate.co.uk/JOSSH/database/commodities/Silicon-2.html (from jumpgate.co.uk/JOSSH/database/inventory/Solrain_Core.html)
+14:15:58	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.angry-angels.eu/content/images/AngryAngles.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Angry%20Angels/index.html)
+14:16:07	Error: 	"Not Found" (404) at link jumpgate.co.uk/el.katharsys-design.com/images/text.gif (from jumpgate.co.uk/JOSSH/squadmanager/Eternal%20Legacy/index.html)
+14:16:09	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.fallenwild.com/images/jgc.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Fallen%20Wild/index.html)
+14:16:09	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.vorlon31.pwp.blueyonder.co.uk/FClogo.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Flux%20Clearance/index.html)
+14:16:10	Error: 	"Not Found" (404) at link jumpgate.co.uk/img338.imageshack.us/img338/3655/6a00d83494657953ef00e54pf6.jpg (from jumpgate.co.uk/JOSSH/squadmanager/FubaR/index.html)
+14:16:10	Error: 	"Not Found" (404) at link jumpgate.co.uk/home.attbi.com/_hwyig/FutureMeat.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Future%20MEaT/index.html)
+14:16:11	Error: 	"Not Found" (404) at link jumpgate.co.uk/img222.imageshack.us/img222/1209/ivyx2.jpg (from jumpgate.co.uk/JOSSH/squadmanager/-iV-/index.html)
+14:16:11	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.sarna.net/wiki/images/8/85/Clan_Jade_Falcon.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Jade%20Falcon/index.html)
+14:16:12	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.confluxwar.net/img/nd3ci/ndlogo4a.jpg (from jumpgate.co.uk/JOSSH/squadmanager/New%20Dawn/index.html)
+14:16:14	Error: 	"Not Found" (404) at link jumpgate.co.uk/img486.imageshack.us/img486/6906/99478180rj2.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Pestilence/index.html)
+14:16:16	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.jguniverse.net/images/QH3.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Quantars%20Hope/index.html)
+14:16:16	Error: 	"Not Found" (404) at link jumpgate.co.uk/i20.photobucket.com/albums/b250/Raummorder/raummorder.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Raummorder/index.html)
+14:16:17	Error: 	"Not Found" (404) at link jumpgate.co.uk/dragoneyehq.com/images/phoonpilot.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Semper%20Paratus/index.html)
+14:16:19	Error: 	"Not Found" (404) at link jumpgate.co.uk/i931.photobucket.com/albums/ad154/Red_Nammoc/NewSTMGlogo2.png (from jumpgate.co.uk/JOSSH/squadmanager/STMG/index.html)
+14:16:20	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.terrier.privat.t-online.de/terriertitel.jpg (from jumpgate.co.uk/JOSSH/squadmanager/Terrier%20Pack/index.html)
+14:16:20	Error: 	"Not Found" (404) at link jumpgate.co.uk/misfits.andeavour.com/themes/Anagram/images/logo.gif (from jumpgate.co.uk/JOSSH/squadmanager/The%20Misfits/index.html)
+14:16:21	Error: 	"Not Found" (404) at link jumpgate.co.uk/www.a-s-hofem.de/Jumpgate/TCF_logo_schrift.jpg (from jumpgate.co.uk/JOSSH/squadmanager/TheCrazyFarm/index.html)
+14:16:21	Error: 	"Not Found" (404) at link jumpgate.co.uk/sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs882.snc4/71573_157402197631046_100000838013885_262236_7300489_n.jpg (from jumpgate.co.uk/JOSSH/squadmanager/TRI%20Privateers/index.html)
+14:16:22	Error: 	"Not Found" (404) at link jumpgate.co.uk/i36.photobucket.com/albums/e13/pronkyou/Hindenburg.gif (from jumpgate.co.uk/JOSSH/squadmanager/Ze%20Zeppelins/index.html)
+14:16:23	Error: 	"Forbidden" (403) at link jumpgate.co.uk/JOSSH/database/commodities/.html (from jumpgate.co.uk/JOSSH/database/pos/data/56295.html)
+
+HTTrack Website Copier/3.43-9 mirror complete in 41 minutes 45 seconds : 5475 links scanned, 5431 files written (69289692 bytes overall) [49678478 bytes received at 19831 bytes/sec], 28909350 bytes transfered using HTTP compression in 3957 files, ratio 25%, 21.3 requests per connection
+(43 errors, 1 warnings, 0 messages)

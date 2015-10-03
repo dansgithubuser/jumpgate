@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/flight_academy/bounty.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:48 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/bounty.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="web front end by formula - http://www.formula.com">
+	<META NAME="Developer" CONTENT="jumpgate developed by NetDevil - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Flight Academy:Quick Start</TITLE>
+	<LINK REL=stylesheet TYPE="text/css" HREF="../in_game.css">
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"flight_academy");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+</SCRIPT>
+</HEAD>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- Begin Body Content -->
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top">
+	<H1 ALIGN="right">Bounties</H1>
+	<P><EM>Attention pilot!  Keeping the space lanes free of pirates and other scum is the duty of every pilot, not just those belonging to a faction's Military wing.  The bounty enforcement system is operated for the factions by TRI.  Should you choose to participate, you will be well paid for your services.</EM></P>
+	<P></P>
+</TD>
+</TR>
+</TABLE>
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top">
+<P>In the early stages of Reconstruction, criminal activity rose drastically. Marauding pirate bands quickly gained control of the space lanes, and became a threat worse than the <a href="conflux.html">conflux</a>. Initially, TRI attempted to fund a police force, but this approach was doomed from the start. Due to the obscurity of political borders and the vast size of space, this police force became a political nightmare, and quickly collapsed. Shortly thereafter the TRI bounty system went into effect. This new method of crime prevention worked reasonably well, and has survived to this day.</P>
+<P>Due to interstellar treaties, bounties are only assigned for acts within factional space. This means that unregulated space can be very dangerous to pilots who are not ready to defend themselves against pirates, factionalists, and other riff-raff.<BR><BR></P>
+</TD>
+</TR>
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>TRI Bounty System</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+	
+	<P>Bounties are assigned due to pilot actions and calculations are based upon <a href="political_status.html">political rating</a>. Several types of bounties may be placed on offending pilots. A bounty will not be assigned for defending yourself. (The pilot who fires the first shot to hit home is considered the fight initiator.)</P>
+	<P><B>Temporary bounties</b> are assigned for unprovoked, non-deadly attacks on TRI pilots. These bounties are often small, as they may be the result of friendly fire or other extenuating circumstances. Usually these bounties can be cleared simply by docking at the nearest station.</P>
+	<P><B>Permanent bounties</b> are assigned for unprovoked attacks resulting in the downing of a pilot in violation of factional rules of engagement. Once a pilot has illegally downed another pilot, especially a civilian, the killer's <a href="political_status.html">political status</a> with the victim's faction will immediately drop. A bounty will then be assigned until this rating is returned to neutral status.</P>
+	<P><B>Political bounties</b> can also be assigned based purely on <a href="political_status.html">political rating</a> changes that move a pilot to an unfavorable status, such as for failing missions. Political bounties can be removed by increasing your <a href="political_status.html">political rating</a> with the faction which you have offended.</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<!--
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>Criminal Deterrent</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+	<P>TRI has also implemented a protection system to discourage high rank pilots from destroying lower level pilots without due cause. When you rip a pilot, the following formulas are used to determine the proper punishment:</P>
+	<P><B>1. Determine the nature of the rip</B> - The first step is to determine whether the rip was with due cause. If the destroyed pilot had a bounty or both contestants were members of the <a href="honor_guard.html">Honor Guard</a> the rip is considered legitimate, and no penalty is assigned. If the ripped pilot was a TRI civilian and was marked as an ally, or only one combatant was marked as <a href="honor_guard.html">Honor Guard</a> and the ripped pilot was an ally, the following checks are made. (Stop here if the rip was considered legitimate.)</P>
+	<P><B>2. Determine faction rating hit</B> - If a rip is determined to be punishable, the following formula is used to calculate your political rating hit:</P>
+	<P ALIGN="CENTER"><IMG SRC="media/bounty_formula1.jpg"></P>
+	<P>In this formula <i>e</i> represents your enemy's faction rating with their own faction, and <i>h</i> represents your faction rating hit against your enemy's faction. The reason for this calculation is to determine how valuable the ripped pilot was to their faction, which in turn determines how much their faction now dislikes you. <i>h</i> will always equal a number between 5 and 27.</P>
+	<P><i>Example:</i><br>Assume you enemy's faction is Quantar, and their Quantar faction rating is 48. First add 100 to their rating (48+100=148). Now divide the total by 10, rounding down (148/10=14). Finally, add 5 (14+5=19). This total (19), is the faction rating hit which will be applied against your Quantar faction rating. (for example, assume your Quantar faction rating was 50. after making this rip, your rating would be 31.)</P>
+	<P><B>3. Assign additional penalties for lower level rips</B> - If the pilot which has been ripped is of a lower rank than your own and additional penalty will be assigned. the following formula is used to determine the additional penalty:</P>
+	<P ALIGN="CENTER"><IMG SRC="media/bounty_formula2.jpg"></P>
+	<P>In this formula <i>h</i> represents your faction rating hit against your enemy's faction, and <i>d</i> represents the difference in rank between you and your victim.
+	<P><i>Example:</i><br>Assume the pilot which you have destroyed is rank 3, and you are rank 18. First take the value of <i>h</i> from the previous calculation (19). Now calculate the difference between your rank and your victim's rank (18-3=15), and multiply the total by 2 (15*2=30). Add these totals together (19+30=49) and you have your new political rating hit (49).<P>
+<P>If your rating is currently greater than zero, drop it to -1, as no faction will trust you after destroying a TRI civilian. (-1 is the highest possible political rating you can have after destroying a civilian pilot.)</P>
+<P>if your political rating drops below -50 as a result of this hit, you will receive a message warning you that the next illegal rip may begin to affect your experience total. If this is the case, proceed to the next check.</P>
+	<P><B>4. Calculate experience penalty</B> - To further discourage newbie rips, TRI will begin to remove experience points if the attacking pilot already has a political rating of -50 or lower with the ripped pilot's faction. The amount of experience removed is determined using the following formula:</P>
+	<P ALIGN="CENTER"><IMG SRC="media/bounty_formula3.jpg"></P>
+	<P>In this formula <i>d</i> represents the difference in rank between you and your victim, <i>r</i> represents the killed pilot's rank, and <i>x</i> represents the amount of experience which will be deducted from your total experience.</P>
+	<P><i>Example:</i><br>Using the values from the previous example, assume that <i>d</i> equals 15. Square this total, and you arrive at 225. Now divide the killed pilot's rank by 3, and subtract this from your total. Assuming your target was rank 3, your new total is 224 (225-(3/3)=224).  Now multiply this total by 1000 (224*1000=224000). This is the amount of experience that will be removed. In this example, assume your total experience is 424000. After this penalty, your total would be 199000 (424000-224000=200000). Your experience total can not drop below zero. Your rank will be decremented after you have lost 2 ranks worth of experience.</P>
+	<P>This is an extremely harsh penalty, but has been deemed necessary by TRI to prevent the indiscriminate killing of low level pilots.</P>
+</TD>
+</TR>
+</TABLE>
+<BR>-->
+
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>Bounty Hunting</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+	<P>You will not be punished for shooting down pilots with bounties, nor will you incur a bounty from doing so regardless of the bountied pilot's registry setting. To determine a pilot's bounty, target him and look at his name. At the end of a pilot's name line you will see a number - this is his current TRI bounty. This number is your reward in credits for ripping this criminal.  Additionally, tiny icons to the left of the pilot's target hologram  will indicate which faction has instructed TRI to assign a criminal status to that pilot.  That faction will award you a small political status increase with them for ripping the target.  If a pilot does not have a bounty, either "Ally", "Neutral", or "Enemy" will be displayed, alerting you to your factions' mutual political stance.</P>
+	<P>The <A HREF="beacons.html">beacon</A> system has been adapted to aid bounty hunters in the pursuit of their lawful prey, and similarly to assist noncombatants in evading potentially dangerous criminals.  Pilots with sufficient bounty to hold a negative <a href="political_status.html">political rating</a> for a faction will be tracked by the beacon system.  Notices as to their last-known wherabouts will be broadcast on the TRI-BOUNTY communications channel.  Only beacons tuned to the faction with whom the criminal has a bounty will transmit the tracking messages, and messages will likewise only be received by members of the faction with whom the bounty is held.</P>
+</TD>
+</TR>
+</TABLE>
+<!-- End Body Content -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/flight_academy/bounty.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:48 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/bounty.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

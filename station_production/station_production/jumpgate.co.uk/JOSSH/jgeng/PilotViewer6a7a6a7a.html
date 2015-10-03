@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=p by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:51:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer6a7a.html?list=p by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Pilot Center</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// --------------------------------------------------------
+// Rollover code, v.1.1a
+// --------------------------------------------------------
+// Browser version checking
+var Version=0;
+browsername = navigator.appName;
+version = parseFloat(navigator.appVersion); 
+if (browsername == "Netscape" && version >= 3.0)
+{
+	roll = 'true';
+}
+else if (browsername == "Microsoft Internet Explorer" && version >= 3.0)
+{
+	roll = 'true';
+}
+else
+{
+	roll = 'false';
+}
+// at this point:
+// roll == true if the version of the browser will work
+// roll == false otherwise
+
+if (roll == 'true')
+// the array is only preloaded if the browser can handle javascript rollovers
+{
+	// simple preloading routine
+	arImageSrc = new Array ("../media/button_pilots_over.gif", 
+							"../media/button_squads_over.gif", 
+							"../media/button_login_over.gif", 
+							"../media/button_join_now_over.gif",
+							"../media/button_stats_over.gif");
+	arImageList = new Array ();
+	
+	for (counter in arImageSrc) 
+	{	
+		arImageList[counter] = new Image();
+		arImageList[counter].src = arImageSrc[counter];
+	}
+}
+// end if roll==true
+	
+// hilight and unhilight images code
+// this code assumes that hilighted images have the same name as the normal images
+// plus an '_over' extension... as follows:
+// 			original name = x.gif
+//			rollover name = x_over.gif
+function switchjpg(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+}
+function switchbackjpg(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".jpg";
+	}
+}
+function switchgif(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.gif";
+	}
+}
+function switchbackgif(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".gif";
+	}
+}
+
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+// -->
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="LEFT"></TD>
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Pilot Center</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<P ALIGN="CENTER">
+<B>currently registered TRI pilots</B><BR>
+<FONT SIZE="-1">Filtered by <B><FONT COLOR="#99FF99">'p'</FONT></B></FONT><BR>
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=1 BGCOLOR="#555555" ALIGN="CENTER" WIDTH="440">
+<TR BGCOLOR="#000000" ALIGN="CENTER"  VALIGN="BOTTOM">
+	<TD><B><IMG SRC="../history/media/logo_small_solrain.gif"><BR>Solrain</B></TD>
+	<TD><B><IMG SRC="../history/media/logo_small_octavius.gif"><BR>Octavius</B></TD>
+	<TD><IMG SRC="../history/media/logo_small_quantar.gif"><BR><B>Quantar</B></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#000022"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewerb6a3b6a3.html?p=Painter">Painter</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer45a045a0.html?p=perseus">perseus</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewera20da20d.html?p=Pete.P">Pete.P</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewere4f4e4f4.html?p=Phoibamon">Phoibamon</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer710f710f.html?p=Porkchop">Porkchop</A><BR></FONT></TD>
+	<TD BGCOLOR="#220000"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer5c965c96.html?p=PageFile">PageFile</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer7de87de8.html?p=piabiaeba">piabiaeba</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotVieweraf35af35.html?p=piper">piper</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer6b7d6b7d.html?p=Pirat">Pirat</A><BR><IMG SRC="../media/pixel_99FFFF.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer1f181f18.html?p=PO_Rage">PO_Rage</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer6b5e6b5e.html?p=purge">purge</A><BR></FONT></TD>
+	<TD BGCOLOR="#002200"><FONT SIZE="-1"><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer9ebb9ebb.html?p=Pandora">Pandora</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer84288428.html?p=Parin">Parin</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer62676267.html?p=Paxcorpus">Paxcorpus</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer58f958f9.html?p=PimpDaddy">PimpDaddy</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_honor_guard.gif" WIDTH="10" HEIGHT="10" ALT="Military" BORDER="0"> <A HREF="PilotViewer76f376f3.html?p=protosss">protosss</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer2c332c33.html?p=Psycho">Psycho</A><BR><IMG SRC="../media/pixel.gif" WIDTH="10" HEIGHT="10" ALT="" BORDER="0"> <IMG SRC="../media/registry_none.gif" WIDTH="10" HEIGHT="10" ALT="TRI Civilian" BORDER="0"> <A HREF="PilotViewer35d535d5.html?p=Purist">Purist</A><BR></FONT></TD>
+</TR>
+</TABLE>
+</P>
+
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+<!-- BEGIN BUTTONS -->
+<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="420" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><A HREF="../news/stats/index.html" onmouseout="switchbackgif('button_stats');" onmouseover="switchgif('button_stats');"><IMG SRC="../media/button_stats.gif" NAME="button_stats" BORDER="0" ALT="Get the latest TRI and pilot statistics" WIDTH="116" HEIGHT="34"></A><A HREF="../squadmanager/index-2.html" onmouseout="switchbackgif('button_squads');" onmouseover="switchgif('button_squads');"><IMG SRC="../media/button_squads.gif" NAME="button_squads" BORDER="0" ALT="Join a squad today!" WIDTH="126" HEIGHT="34"></A><A HREF="../pilot_center.html" onmouseout="switchbackgif('button_pilots');" onmouseover="switchgif('button_pilots');"><IMG SRC="../media/button_pilots.gif" NAME="button_pilots" BORDER="0" WIDTH="130" HEIGHT="34" ALT="Realtime pilot lookups and information"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- END BUTTONS -->
+<BR CLEAR="ALL">
+
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?list=p by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:51:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer6a7a.html?list=p by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

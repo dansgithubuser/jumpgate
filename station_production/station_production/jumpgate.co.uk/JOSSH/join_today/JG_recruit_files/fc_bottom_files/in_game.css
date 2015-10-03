@@ -1,0 +1,69 @@
+P {
+	COLOR: #ffffff; FONT-FAMILY: Arial
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18pt; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+A {
+	COLOR: #00ccff; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #00ff99
+}
+A:hover {
+	COLOR: #00ff99
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #000000
+}
+.speclabel {
+	FONT-SIZE: 10pt; COLOR: #cccc99; FONT-FAMILY: Arial
+}
+.specvalue {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Courier New
+}
+TD {
+	COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.dbdescription {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.plabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: #cccc99; FONT-FAMILY: Arial
+}
+.tableheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #cccc99; FONT-FAMILY: Arial
+}
+.huggyflash {
+	LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.stat {
+	FONT-SIZE: 10pt; COLOR: #ffffff
+}
+.statgood {
+	FONT-SIZE: 10pt; COLOR: #ffffcc
+}
+.statbad {
+	FONT-SIZE: 10pt; COLOR: #ff6655
+}
+.statcat {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-COLOR: #444444; TEXT-ALIGN: left
+}
+.stat_small {
+	FONT-SIZE: 8pt; COLOR: #ffffff
+}
+.statgood_small {
+	FONT-SIZE: 8pt; COLOR: #ffffcc
+}
+.statbad_small {
+	FONT-SIZE: 8pt; COLOR: #ff6655
+}
+.statcat_small {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND-COLOR: #444444; TEXT-ALIGN: left
+}
+.stathead {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-COLOR: #334466; TEXT-ALIGN: left
+}

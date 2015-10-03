@@ -1,0 +1,520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/flight_academy/communication.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:33 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/communication.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Flight Academy:Communication</TITLE>
+	<LINK REL=stylesheet TYPE="text/css" HREF="../in_game.css">
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"flight_academy");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+</SCRIPT>
+</HEAD>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN BODY -->
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+<TD>
+<H1 ALIGN="RIGHT">Communication</H1>
+<P>
+An integral part of any multi-unit operation is communication.  The standard TRI comm window will be located at the top of your screen in flight, and in the upper left-hand corner of your PDA while docked.
+</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><FONT SIZE="+1"><B>Receiving Messages</B></FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+<TD>
+<P>
+Each line of text will contain several different attributes which will help you to discern the purpose of each message.  The first thing you will notice is a color variance per line.  The following chart will familiarize you with text coloration.
+</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><B>Color</B><BR>
+	<FONT SIZE="-2">mode<BR>
+	range</FONT><BR>
+	<BR>
+	</TD>
+	<TD BGCOLOR="#333333"><B>Description</B></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#BEBEBE"><B>Grey</B><BR>
+	<FONT SIZE="-2">echo<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Grey text is an echo of your communication inputs, if you are on a channel that does not already come back to you (such as a booth).</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#C80000"><B>Red</B><BR>
+	<FONT SIZE="-2">faction<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Red text is the Octavian faction's private broadcast color.  To see this text, you must be an Octavian.  A message broadcasted in this mode can only come from a fellow Octavian in your current sector.</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#00C800"><B>Green</B><BR>
+	<FONT SIZE="-2">faction<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Green text is the Quantar faction's private broadcast color.  To see this text, you must be a Quantar.  A message broadcasted in this mode can only come from a fellow Quantar in your current sector.
+</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#4242CB"><B>Blue</B><BR>
+	<FONT SIZE="-2">faction<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Blue text is the Solrain faction's private broadcast color.  To see this text, you must be a Solrain.  A message broadcasted in this mode can only come from a fellow Solrain in your current sector.</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#00FFFF"><B>Aqua</B><BR>
+	<FONT SIZE="-2">squad<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Aqua text is reserved for private squad broadcasts.  To see this text, you must be a member of a squad.  A message broadcasted in this mode can only come from a fellow squad member, but crosses sector boundaries across the entire galaxy.</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FF8B58"><B>Orange</B><BR>
+	<FONT SIZE="-2">public<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Orange is the general public sector comm color.  A message received in this mode may be coming from any pilot in your current sector, regardless of race, religion, or sex.</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>White</B><BR>
+	<FONT SIZE="-2">whisper<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">White text lines denote whisper mode communications.  White messages can be received from any pilot anywhere in space.  Whisper messages are sent to only one player at a time privately.</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#00C58B"><B>DkCyan</B><BR>
+	<FONT SIZE="-2">booth<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Dark cyan text is received from your currently selected booth.  Booths are player defined, cross-sector channels, which may be occupied by any player.  They are semi-private in the respect that you must know the name of the channel to join, and anyone who does join is announced (except for newbies in the help booth).  Beware of spies and intelligence gatherers who may be snooping.
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#8C00B4"><B>Purple</B><BR>
+	<FONT SIZE="-2">system<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Purple denotes an administrator or system broadcast.  These broadcasts are seen by every active pilot in game, and usually contain important system information such as server status and imminent downtime.
+</TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFF00"><B>Yellow</B><BR>
+	<FONT SIZE="-2">system<BR>
+	you</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Yellow text means a system message directed only at you.  System messages consist of reports and warnings sent from the client or server depending on your current condition.  Pay attention to these messages, as they often contain important directions or error warnings.</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><FONT SIZE="+1"><B>Sending Messages</B></FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+<TD>
+<P>
+Now that you have a basic understanding of incoming communications, you will learn how to broadcast via standard TRI comm channels.  Before you attempt to send a message, you will need to consider your target audience.  As you already know, TRI supports five standard communication methods, which can be accessed via the F1 - F5 keys located along the top of your keyboard.  To access a comm channel, you will need to press the appropriate F key, and then type your message or commands according to the syntax rules provided in the chart below.
+</P>
+<P>
+Don't forget to check the list of <A HREF="official_channels.html">officially recognized TRI channels</A> as a starting point to meet other pilots.
+</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><B>Key Press</B><BR>
+	<FONT SIZE="-2">mode<BR>
+	range</FONT><BR>
+	<BR>
+	</TD>
+	<TD BGCOLOR="#333333"><B>Description</B></TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F1</B><BR>
+	<FONT SIZE="-2">faction<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Press F1, type your message, and press Enter.  Color is automatically assigned based on your faction.<BR>
+	<BR>
+<FONT FACE="Courier">
+F1 <FONT COLOR="#C80000"><B>your faction message here.</B></FONT><BR>
+F1 <FONT COLOR="#00C800"><B>your faction message here.</B></FONT><BR>
+F1 <FONT COLOR="#4242CB"><B>your faction message here.</B></FONT><BR>
+</FONT><BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F2</B><BR>
+	<FONT SIZE="-2">squad<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Press F2, type your message, and press Enter.<BR>
+	<BR>
+<FONT FACE="Courier">
+F2 <FONT COLOR="#00FFFF"><B>your squad message here.</B></FONT><BR>
+</FONT><BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F3</B><BR>
+	<FONT SIZE="-2">public<BR>
+	sector</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Press F3, type your message, and press Enter.<BR>
+	<BR>
+<FONT FACE="Courier">
+F3 <FONT COLOR="#FF8B58"><B>your public message here.</B></FONT><BR>
+</FONT><BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F4</B><BR>
+	<FONT SIZE="-2">whisper<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">To whisper directly to another pilot, you must first define who they are.  To define a user, you press F4, type a colon ':', then the callsign, and finally your message and Enter.  Once you have specified a pilot to communicate with, you will not need to type the ':callsign' portion of the message again until you decide to communicate with a different pilot.<BR>
+	<BR>
+<FONT FACE="Courier">
+F4 <FONT COLOR="#FFFFFF"><B>your whisper message here.</B></FONT><BR>
+</FONT><BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F5</B><BR>
+	<FONT SIZE="-2">booth<BR>
+	galaxy</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">To join a booth channel, you must first define which booth you would like to join.  To define a booth, you press F5, type a colon ':', then a four character, alphanumeric booth name, and finally your message and Enter.  Once you have specified a valid booth name, you will not need to type the ':name' portion of the message again until you decide to join a different booth.  New players are automatically signed up on the ':help' booth.<BR>
+	<BR>
+<FONT FACE="Courier">
+F5 <FONT COLOR="#00C58B"><B>your booth message here.</B></FONT><BR>
+</FONT><BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT COLOR="#FFFFFF"><B>F6-F10</B><BR>
+	<FONT SIZE="-2">macro<BR>
+	varies</FONT></FONT></TD>
+	<TD BGCOLOR="#222222">Macros can be programmed on the five function keys from F6, F7, F8, F9, to F10.  Once a macro is programmed, you need only hit its assigned key to send your message.  See the section below for more detail.<BR>
+	<BR>
+<FONT FACE="Courier">
+F6 <B>your recorded message here.</B><BR>
+</FONT><BR>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><FONT SIZE="+1"><B>Macro Communications</B></FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+<TD>
+<P>
+Macros are programmable communication keys which can be used to store and send commonly used messages.  Five macro keys are provided (F6 - F10).
+</P>
+
+<P>
+To record a macro, press Shift+F key (F6, F7, F8, F9, or F10).  This is the F key that the macro will be recorded to.  You are now in record mode.  Now type which channel you want the message to be displayed in, dropping the F.  For example, if you want it to play in F3, type '3'.  Type your message exactly as you would if you were using the channel normally.
+</P>
+
+<P>
+For example, a macro set to F6 that displays the message "hello world" in your faction channel (F1), would look like this:
+</P>
+
+<P>
+<FONT FACE="Courier">
+<B>&lt;Shift+F6&gt;1hello world.</B>
+</FONT>
+</P>
+
+<P>
+Alternatively, a macro that would whisper the message "hi there" to player Scorch would look like this:
+</P>
+
+<P>
+<FONT FACE="Courier">
+<B>4:Scorch hi there.</B>
+</FONT>
+</P> 
+
+<P>
+To play a macro, simply press the key which it was mapped to.  If you pressed Shift+F7, press F7.  If you pressed Shift+F8, press F8, etc.
+</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366"><FONT SIZE="+1"><B>Comm Line Commands</B></FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+<TD>
+<P>
+Certain commands to JOSSH can be sent via the communication line.  The following chart gives a brief description of each comm line command.
+</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+
+<TABLE ALIGN="CENTER" WIDTH="505">
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#003366" WIDTH=200><B>Command</B></TD>
+	<TD BGCOLOR="#333333"><B>Description</B></TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/assist</B></FONT></TD>
+	<TD BGCOLOR="#222222">will add you to a queue awaiting assistance from a GM or Empowered Player.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/bcu</B></FONT></TD>
+	<TD BGCOLOR="#222222">will run a systems check and inform you if you have a bcu equipped.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/bounty</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your maximum possible bounty (this value may vary depending on who is attacking you).<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/build</B></FONT></TD>
+	<TD BGCOLOR="#222222">If you have a BuildKit in inventory, will send a POS construction permit request to TRI.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/cargo</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your current cargo loadout.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/credits</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your current amount of credits.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/dump</B></FONT></TD>
+	<TD BGCOLOR="#222222">Toggles permission for pilots to dump cargo into your station market. They will not receive payment.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/dump squad</B></FONT></TD>
+	<TD BGCOLOR="#222222">Allows squadmates to dump cargo into your station market. They will not receive payment.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/exp</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your current amount of experience.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/gear</B></FONT></TD>
+	<TD BGCOLOR="#222222">Provides faction equipment to pilot stuck in station with home faction bounty, who has accidentally sold equipment needed for launch.  Results in small PR loss. Costs c200 per item supplied.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/give</B></FONT></TD>
+	<TD BGCOLOR="#222222">Transfers funds while in flight.  Target a pilot, type '/give x' where 'x' is the number of credits you wish to transfer.  You will not be asked to confirm, so be sure the amount is correct.<BR>
+</TD>
+</TR>
+
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/help</B></FONT></TD>
+	<TD BGCOLOR="#222222">Lists important / commands, points users to www.jossh.com, and instructs user on how to join their local help chat channel.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/ignore <I>callsign</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Adds callsign to your local ignore.txt, preventing any further text messages from that pilot.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/list</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays a list of common chat channels.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/mentor <I>callsign</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Invite a level 9 or lower pilot to be a student. Must be level 10 to be a mentor.  (Callsign is case sensitive.)<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/mentoroff <I>callsign</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Remove a student if you are a mentor.  (Callsign is case sensitive.)<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/mentoroff</B></FONT></TD>
+	<TD BGCOLOR="#222222">Leave your mentor as a student.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/mission</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your current mission details.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/noprice <i>commodity</i></B></FONT></TD>
+	<TD BGCOLOR="#222222">Resets the price for <i>commodity</i> at your POS market to the TRI standard.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/publish</B></FONT></TD>
+	<TD BGCOLOR="#222222">If you own a POS, allows data about your station to be displayed on JOSSH.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/q</B></FONT></TD>
+	<TD BGCOLOR="#222222">Quick logout.  Counts as a death if you are in space.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/r</B> or <B>/reply</B></FONT></TD>
+	<TD BGCOLOR="#222222">Reply.  Sets your F4 channel to the last person who whispered to you.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/reg</B> or <B>/registry</B></FONT></TD>
+	<TD BGCOLOR="#222222">Returns current registry setting.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/rotacol <I>x y z</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">If a rotacol is equipped, enter the x, y, and z coordinates to plot a rotacol waypoint.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/rotacoloff</B></FONT></TD>
+	<TD BGCOLOR="#222222">Destroys a rotacol waypoint.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/sector</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays your current sector.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/setprice <I>commodity</I> <I>price</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Sets the price for <I>commodity</I> at your POS market to <i>price</i>.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/sq claim</B></FONT></TD>
+	<TD BGCOLOR="#222222">Attempts to claim a sector for your squad. If sector already claimed, will dispute that claim.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/students</B></FONT></TD>
+	<TD BGCOLOR="#222222">Displays a list of students as a mentor.<BR>
+</TD>
+</TR>
+
+<!--<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/time</B></FONT></TD>
+	<TD BGCOLOR="#222222">Reports how long you have until your pilot account expires, in Days, Hours, Minutes, and Seconds.<BR>
+</TD>
+</TR>-->
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/voice <I>callsign</I><BR>
+	<I>or</I><BR>
+	/hear <I>callsign</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Removes callsign from your local ignore.txt, and negates /ignore.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/warinfo</B></FONT></TD>
+	<TD BGCOLOR="#222222">Lists your faction's current stances toward other factions.<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/wing <I>callsign</I></B></FONT></TD>
+	<TD BGCOLOR="#222222">Invite a pilot to be your wingman, or accept a wingman invitation.  (Callsign is case sensitive.)<BR>
+</TD>
+</TR>
+
+<TR VALIGN="TOP">
+	<TD><FONT FACE="Courier"><B>/wingoff</B></FONT></TD>
+	<TD BGCOLOR="#222222">Leave a wing as a wingman.<BR>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+
+<!-- END CONTENT -->
+</BODY>
+
+<!-- Mirrored from www.jossh.com/flight_academy/communication.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:33 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/communication.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

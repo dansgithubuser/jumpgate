@@ -1,0 +1,13 @@
+BODY  {
+	font-family : sans-serif;
+	color : #FFFFFF;
+	background-color : #000000;
+	margin : 0;
+	padding : 0;
+}
+
+.laserflash {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}

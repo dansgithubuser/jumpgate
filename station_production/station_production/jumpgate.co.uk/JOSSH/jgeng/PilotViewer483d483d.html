@@ -1,0 +1,426 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?p=Tstrike3 by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:44:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer483d.html?p=Tstrike3 by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:16:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Pilot Center</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// --------------------------------------------------------
+// Rollover code, v.1.1a
+// --------------------------------------------------------
+// Browser version checking
+var Version=0;
+browsername = navigator.appName;
+version = parseFloat(navigator.appVersion); 
+if (browsername == "Netscape" && version >= 3.0)
+{
+	roll = 'true';
+}
+else if (browsername == "Microsoft Internet Explorer" && version >= 3.0)
+{
+	roll = 'true';
+}
+else
+{
+	roll = 'false';
+}
+// at this point:
+// roll == true if the version of the browser will work
+// roll == false otherwise
+
+if (roll == 'true')
+// the array is only preloaded if the browser can handle javascript rollovers
+{
+	// simple preloading routine
+	arImageSrc = new Array ("../media/button_pilots_over.gif", 
+							"../media/button_squads_over.gif", 
+							"../media/button_login_over.gif", 
+							"../media/button_join_now_over.gif",
+							"../media/button_stats_over.gif");
+	arImageList = new Array ();
+	
+	for (counter in arImageSrc) 
+	{	
+		arImageList[counter] = new Image();
+		arImageList[counter].src = arImageSrc[counter];
+	}
+}
+// end if roll==true
+	
+// hilight and unhilight images code
+// this code assumes that hilighted images have the same name as the normal images
+// plus an '_over' extension... as follows:
+// 			original name = x.gif
+//			rollover name = x_over.gif
+function switchjpg(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+}
+function switchbackjpg(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".jpg";
+	}
+}
+function switchgif(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.gif";
+	}
+}
+function switchbackgif(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".gif";
+	}
+}
+
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+// -->
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="LEFT"></TD>
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Pilot Center</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=1 BGCOLOR="#555555" ALIGN="CENTER">
+<TR BGCOLOR="#334466" ALIGN="CENTER" VALIGN="TOP">
+	<TD ROWSPAN="43" WIDTH="125" BGCOLOR="#000000" ALIGN="CENTER" VALIGN="TOP"><IMG SRC="../history/media/logo_solrain.gif" BORDER="0"><BR><A HREF="../database/medals/medal1.html"><IMG SRC="../media/medals/medal1.gif" WIDTH="25" BORDER="0" ALT="Merit of Defense" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal4.html"><IMG SRC="../media/medals/medal4.gif" WIDTH="25" BORDER="0" ALT="Ring of Commitment" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal6.html"><IMG SRC="../media/medals/medal6.gif" WIDTH="25" BORDER="0" ALT="Honor's Mark" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal7.html"><IMG SRC="../media/medals/medal7.gif" WIDTH="25" BORDER="0" ALT="Flame of Courage" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal10.html"><IMG SRC="../media/medals/medal10.gif" WIDTH="25" BORDER="0" ALT="Closed Eye" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal12.html"><IMG SRC="../media/medals/medal12.gif" WIDTH="25" BORDER="0" ALT="Shame's Mark" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal13.html"><IMG SRC="../media/medals/medal13.gif" WIDTH="25" BORDER="0" ALT="Wire of Instability" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal22.html"><IMG SRC="../media/medals/medal22.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal22.html"><IMG SRC="../media/medals/medal22.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal22.html"><IMG SRC="../media/medals/medal22.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal22.html"><IMG SRC="../media/medals/medal22.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal22.html"><IMG SRC="../media/medals/medal22.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal23.html"><IMG SRC="../media/medals/medal23.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon II" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal23.html"><IMG SRC="../media/medals/medal23.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon II" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal23.html"><IMG SRC="../media/medals/medal23.gif" WIDTH="25" BORDER="0" ALT="Solrain Duty Ribbon II" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal32.html"><IMG SRC="../media/medals/medal32.gif" WIDTH="25" BORDER="0" ALT="" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal32.html"><IMG SRC="../media/medals/medal32.gif" WIDTH="25" BORDER="0" ALT="" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal32.html"><IMG SRC="../media/medals/medal32.gif" WIDTH="25" BORDER="0" ALT="" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal42.html"><IMG SRC="../media/medals/medal42.gif" WIDTH="25" BORDER="0" ALT="Unity Stripe" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal43.html"><IMG SRC="../media/medals/medal43.gif" WIDTH="25" BORDER="0" ALT="Unity Stripe I" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal44.html"><IMG SRC="../media/medals/medal44.gif" WIDTH="25" BORDER="0" ALT="Unity Stripe II" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal49.html"><IMG SRC="../media/medals/medal49.gif" WIDTH="25" BORDER="0" ALT="Operations Ribbon" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal50.html"><IMG SRC="../media/medals/medal50.gif" WIDTH="25" BORDER="0" ALT="Operations Ribbon I" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal51.html"><IMG SRC="../media/medals/medal51.gif" WIDTH="25" BORDER="0" ALT="Operations Ribbon II" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal52.html"><IMG SRC="../media/medals/medal52.gif" WIDTH="25" BORDER="0" ALT="Operations Ribbon III" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal70.html"><IMG SRC="../media/medals/medal70.gif" WIDTH="25" BORDER="0" ALT="Black Dwarf" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal70.html"><IMG SRC="../media/medals/medal70.gif" WIDTH="25" BORDER="0" ALT="Black Dwarf" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal72.html"><IMG SRC="../media/medals/medal72.gif" WIDTH="25" BORDER="0" ALT="Skill Star" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal72.html"><IMG SRC="../media/medals/medal72.gif" WIDTH="25" BORDER="0" ALT="Skill Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal72.html"><IMG SRC="../media/medals/medal72.gif" WIDTH="25" BORDER="0" ALT="Skill Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal74.html"><IMG SRC="../media/medals/medal74.gif" WIDTH="25" BORDER="0" ALT="Glory Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal74.html"><IMG SRC="../media/medals/medal74.gif" WIDTH="25" BORDER="0" ALT="Glory Star" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal74.html"><IMG SRC="../media/medals/medal74.gif" WIDTH="25" BORDER="0" ALT="Glory Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal74.html"><IMG SRC="../media/medals/medal74.gif" WIDTH="25" BORDER="0" ALT="Glory Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal74.html"><IMG SRC="../media/medals/medal74.gif" WIDTH="25" BORDER="0" ALT="Glory Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal75.html"><IMG SRC="../media/medals/medal75.gif" WIDTH="25" BORDER="0" ALT="Gates of Heaven" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal95.html"><IMG SRC="../media/medals/medal95.gif" WIDTH="25" BORDER="0" ALT="Empowered Player" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal111.html"><IMG SRC="../media/medals/medal111.gif" WIDTH="25" BORDER="0" ALT="Keval's Thanks" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal112.html"><IMG SRC="../media/medals/medal112.gif" WIDTH="25" BORDER="0" ALT="Samon's Legacy" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal116.html"><IMG SRC="../media/medals/medal116.gif" WIDTH="25" BORDER="0" ALT="Nuke Splinter" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal119.html"><IMG SRC="../media/medals/medal119.gif" WIDTH="25" BORDER="0" ALT="Key of Heaven" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal120.html"><IMG SRC="../media/medals/medal120.gif" WIDTH="25" BORDER="0" ALT="Streets of Heaven" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal124.html"><IMG SRC="../media/medals/medal124.gif" WIDTH="25" BORDER="0" ALT="Ice Splinter" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal125.html"><IMG SRC="../media/medals/medal125.gif" WIDTH="25" BORDER="0" ALT="Ice Shard" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal132.html"><IMG SRC="../media/medals/medal132.gif" WIDTH="25" BORDER="0" ALT="Dark Splinter" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal138.html"><IMG SRC="../media/medals/medal138.gif" WIDTH="25" BORDER="0" ALT="Cross of the Counselor" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal139.html"><IMG SRC="../media/medals/medal139.gif" WIDTH="25" BORDER="0" ALT="Cross of the Mentor" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal139.html"><IMG SRC="../media/medals/medal139.gif" WIDTH="25" BORDER="0" ALT="Cross of the Mentor" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal139.html"><IMG SRC="../media/medals/medal139.gif" WIDTH="25" BORDER="0" ALT="Cross of the Mentor" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal139.html"><IMG SRC="../media/medals/medal139.gif" WIDTH="25" BORDER="0" ALT="Cross of the Mentor" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal141.html"><IMG SRC="../media/medals/medal141.gif" WIDTH="25" BORDER="0" ALT="Ruby Nova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal142.html"><IMG SRC="../media/medals/medal142.gif" WIDTH="25" BORDER="0" ALT="Sapphire Nova" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal143.html"><IMG SRC="../media/medals/medal143.gif" WIDTH="25" BORDER="0" ALT="Emerald Nova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal144.html"><IMG SRC="../media/medals/medal144.gif" WIDTH="25" BORDER="0" ALT="Amethyst Nova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal145.html"><IMG SRC="../media/medals/medal145.gif" WIDTH="25" BORDER="0" ALT="Amber Nova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal146.html"><IMG SRC="../media/medals/medal146.gif" WIDTH="25" BORDER="0" ALT="Silver Supernova" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal147.html"><IMG SRC="../media/medals/medal147.gif" WIDTH="25" BORDER="0" ALT="Adamantine Supernova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal148.html"><IMG SRC="../media/medals/medal148.gif" WIDTH="25" BORDER="0" ALT="Gold Supernova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal149.html"><IMG SRC="../media/medals/medal149.gif" WIDTH="25" BORDER="0" ALT="Ember of Courage" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal150.html"><IMG SRC="../media/medals/medal150.gif" WIDTH="25" BORDER="0" ALT="Fire of Courage" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal163.html"><IMG SRC="../media/medals/medal163.gif" WIDTH="25" BORDER="0" ALT="Sarath's Shine" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal196.html"><IMG SRC="../media/medals/medal196.gif" WIDTH="25" BORDER="0" ALT="Sapphire Optimus" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal198.html"><IMG SRC="../media/medals/medal198.gif" WIDTH="25" BORDER="0" ALT="Explorer's Star" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal199.html"><IMG SRC="../media/medals/medal199.gif" WIDTH="25" BORDER="0" ALT="Gules Pendant" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal200.html"><IMG SRC="../media/medals/medal200.gif" WIDTH="25" BORDER="0" ALT="Vert Pendant" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal201.html"><IMG SRC="../media/medals/medal201.gif" WIDTH="25" BORDER="0" ALT="Azure Pendant" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal202.html"><IMG SRC="../media/medals/medal202.gif" WIDTH="25" BORDER="0" ALT="Or Pendant" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal203.html"><IMG SRC="../media/medals/medal203.gif" WIDTH="25" BORDER="0" ALT="Test Pilot Service Medal II" ALIGN="TOP"></A>
+<BR>
+</TD>
+	<TD BGCOLOR="#002222" ALIGN="CENTER"><FONT SIZE="-2" COLOR="#999999">active</FONT></TD>
+	<TD COLSPAN="2" ROWSPAN="2" VALIGN="MIDDLE"><FONT SIZE="+2"><B><IMG SRC="../media/rank50.gif" ALIGN="MIDDLE"> Tstrike3</B></FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD BGCOLOR="#99FF99" ALIGN="CENTER"><FONT SIZE="-2" COLOR="#000000"><B>docked</B></FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#000000" ALIGN="CENTER"><FONT SIZE="-2"><BR>registry<BR><IMG SRC="../media/registry_none.gif" WIDTH="40" HEIGHT="40" ALT="Civilian - Peaceful Intent, aggressive engagement will result in penalty."><BR>TRI<BR>Civilian</FONT></TD>
+	<TD CLASS="statcat">rank</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">Solrain Optimus [50]</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">squad</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">-SOL- Navy</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="2" CLASS="statgood" ALIGN="CENTER">Highest Ranking Achieved!</TD>
+</TR>
+<TR BGCOLOR="#222222" ALIGN="CENTER" VALIGN="TOP">
+	<TD COLSPAN="5"><B>combat categories</B></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_solrain.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Solrain kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">4</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="33BBBB" SIZE="-1"><B>Unfailing</B></FONT> <FONT SIZE="-2">(100)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_octavius.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Octavius kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">21</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="33BBBB" SIZE="-1"><B>Unfailing</B></FONT> <FONT SIZE="-2">(100)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_quantar.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Quantar kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">17</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="447777" SIZE="-1"><B>Legitimate</B></FONT> <FONT SIZE="-2">(10)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_amananth.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Amananth</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="33BBBB" SIZE="-1"><B>Unfailing</B></FONT> <FONT SIZE="-2">(87)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_hyperial.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Hyperial</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="33BBBB" SIZE="-1"><B>Unfailing</B></FONT> <FONT SIZE="-2">(100)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="5" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">total pilot kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">42</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">bounty collected</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c12158446</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">bounty per kill</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c289,486.8</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">deaths</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">353</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">kill ratio</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">11.898 %</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">Conflux kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">2795</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="6" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">gunshots fired</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">330226</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">gunshots hit</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">40801</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">gun accuracy</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">12.355 %</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missiles fired</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">2987</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missiles hit</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">807</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missile accuracy</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">27.017 %</TD>
+</TR>
+<TR BGCOLOR="#222222" ALIGN="CENTER" VALIGN="TOP">
+	<TD COLSPAN="5"><B>non-combat categories</B></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">experience</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">17203606</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">credits</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">10393637</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">net worth</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c38797917</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="4" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">launches</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">3414</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">landings</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">2899</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">disconnects</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">116</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">duty hours</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">3,146.1</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">missions taken</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">1551</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missions complete</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">1419</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">insurance rating</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">9.0</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="1" BGCOLOR="#000000" ALIGN="CENTER">
+<TR BGCOLOR="#000000" ALIGN="CENTER" VALIGN="TOP">
+<TD><FONT SIZE="-2">Pilot Account activated 1.1.2.4:18.22</FONT></TD>
+</TABLE>
+
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+<!-- BEGIN BUTTONS -->
+<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="420" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><A HREF="../news/stats/index.html" onmouseout="switchbackgif('button_stats');" onmouseover="switchgif('button_stats');"><IMG SRC="../media/button_stats.gif" NAME="button_stats" BORDER="0" ALT="Get the latest TRI and pilot statistics" WIDTH="116" HEIGHT="34"></A><A HREF="../squadmanager/index-2.html" onmouseout="switchbackgif('button_squads');" onmouseover="switchgif('button_squads');"><IMG SRC="../media/button_squads.gif" NAME="button_squads" BORDER="0" ALT="Join a squad today!" WIDTH="126" HEIGHT="34"></A><A HREF="../pilot_center.html" onmouseout="switchbackgif('button_pilots');" onmouseover="switchgif('button_pilots');"><IMG SRC="../media/button_pilots.gif" NAME="button_pilots" BORDER="0" WIDTH="130" HEIGHT="34" ALT="Realtime pilot lookups and information"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- END BUTTONS -->
+<BR CLEAR="ALL">
+
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?p=Tstrike3 by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:44:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer483d.html?p=Tstrike3 by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:16:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

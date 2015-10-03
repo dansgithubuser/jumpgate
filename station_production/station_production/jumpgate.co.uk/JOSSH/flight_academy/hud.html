@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/flight_academy/hud.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:42 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/hud.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Flight Academy:Quick Start</TITLE>
+	<LINK REL=stylesheet TYPE="text/css" HREF="../in_game.css">
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"flight_academy");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+</SCRIPT>
+</HEAD>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- Begin Body Content -->
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top">
+<H1 ALIGN="right"> HUD</H1>
+
+<P><I>Welcome Pilot. This is <STRONG>Solder Ronin </STRONG>speaking, sectional leader of the TRI Department for Novice Pilot Affairs. Now that you have a working knowledge of flight mechanics and space travel, it's time to begin standard TRI interface training. Once you have familiarized yourself with the HUD, we can move onto something useful... What are you waiting for, recruit?! Get studying!</I></P>
+
+<P>This documentation will guide you through the basic components of the TRI standard heads up display (HUD). You may want to alt+tab between your browser and jumpgate, and experiment with the HUD components. Also, as you read through this information, take note of which pieces of data you think you will use most.</P>
+
+<P>Note: you can toggle the HUD state by pressing 'h'.</P>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>Central Data Display Ring</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+<P>This is the core of the HUD. The CDDR contains nearly every piece of data that a pilot will need. Here are a few examples of the CDDR. You may notice that virtually every part changes depending on your ship's current status.</P>
+
+      <DIV align=center>
+      <TABLE style="WIDTH: 400px">
+        
+        <TR>
+          <TD bgColor=#003366 vAlign=top><FONT size=+1><B> 
+             CDDR Examples</B></FONT></TD>
+        <TR>
+          <TD vAlign=top>
+            <P align=center><IMG alt="" border=0 
+            src="../media/hud3.jpg">&nbsp;<IMG alt="" 
+            border=0 
+            src="../media/hud2.jpg" 
+            ></P></TD></TR></TABLE></DIV>
+      <DIV align=center>
+      <DIV align=center>&nbsp;</DIV></DIV>
+</TD>
+</TR>
+</TABLE><FONT 
+style="BACKGROUND-COLOR: #000000">&nbsp;</FONT>
+
+<TABLE ALIGN="center" WIDTH="505">
+<TR>
+<TD VALIGN="top" BGCOLOR="#003366"><FONT SIZE="+1"><B>  CDDR breakdown</B></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top">
+      <P align=center><IMG alt="" border=0 
+      src="../media/hud1.jpg"></P>
+      <DIV align=center>&nbsp;</DIV>
+      <DIV align=center>
+      <TABLE align=center cellPadding=2 cellSpacing=2 width=400>
+        
+        <TR vAlign=top >
+          <TD BGCOLOR="#003366"></TD>
+          <TD style="WIDTH: 150px" bgColor=#666666><B>Component</B></TD>
+          <TD bgColor=#333333><B>Description</B></TD></TR>
+        <TR vAlign=top >
+          <TD bgColor=#002244><B>1. </B></TD>
+          <TD bgColor=#555555><B> Jumpgate Indicator</B></TD>
+          <TD bgColor=#222222>
+            <P>This portion of the CDDR will be outlined in yellow when you enter a Jumpgate. While this icon is outlined, the jump command is available.</P></TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>2. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Velocimeter</STRONG></TD>
+          <TD bgColor=#222222>Displays your current velocity in mps (meters per second). Text will display green if afterburners are active, and red if breaking thrusters are firing.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>3. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Cargo Capacity</STRONG></TD>
+          <TD bgColor=#222222>Standard cargo capacity readout. Watch this while mining, or you may find yourself trucking across ten sectors going slower than a Fhilkken Korthag.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>4. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Shield Gauge</STRONG></TD>
+          <TD bgColor=#222222>This outer green line will disappear from the extremities inward depending on your shield level.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>5. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Armor / Hull Gauge</STRONG></TD>
+          <TD bgColor=#222222>This display works the same as the shield gauge, but displays hull damage instead. Watch this one! If it disappears, so do you.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>6. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Desired Throttle Level</STRONG></TD>
+          <TD bgColor=#222222>(Not displayed) This thin green line displays the throttle level set by you, the pilot. This is not your actual speed, but the speed you desire.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>7. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Actual Thrust</STRONG></TD>
+          <TD bgColor=#222222>This thick green bar mirrors the capacitor charge display, and displays your current thrust.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>8. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Distance to Target</STRONG></TD>
+          <TD bgColor=#222222>Displays in meters the distance to your currently selected target.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>9. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Target Location Arrow</STRONG></TD>
+          <TD bgColor=#222222>The target location arrow points in the direction of your current target.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>10. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Current Drift Vector</STRONG></TD>
+          <TD bgColor=#222222>The CDV points in the direction of your current drift.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>11. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Shield Level Indicator</STRONG></TD>
+          <TD bgColor=#222222>Displays current shield percentage remaining.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>12. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Armor Level Indicator</STRONG></TD>
+          <TD bgColor=#222222>Displays current armor percentage remaining.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>13. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Capacitor Charge</STRONG></TD>
+          <TD bgColor=#222222>Displays the amount of charge currently held in your capacitor.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>14. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Fuel Gauge</STRONG></TD>
+          <TD bgColor=#222222>This little blue bar displays how much afterburner / braking fuel you have remaining. An important statistic, assuming you ever plan to dock.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>15. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Targeting Crosshairs</STRONG></TD>
+          <TD bgColor=#222222>A reference point that serves as a centering mark. Useful for combat as well as everyday navigation.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>16. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Firing Mode</STRONG></TD>
+          <TD bgColor=#222222>
+            <P>This indicator will be highlighted with yellow to indicate one of three states:</P>
+            <P>- Single Fire (single dot - shown): Fires currently selected weapon</P>
+            <P>-Group Fire (2 of 4 crosshair points highlighted): Fires all guns of the same model and make as currently selected gun</P>
+            <P>-All Fire (all crosshair points highlighted): Fires all guns</P></TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>17. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Projectile Inventory</STRONG></TD>
+          <TD bgColor=#222222>This number indicates the quantity of currently equipped rockets, missiles, and other projectiles.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>18. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Missile Lock Indicator </STRONG></TD>
+          <TD bgColor=#222222>
+            <P>(Not displayed) once a missile has locked onto your ship, this yellow missile outline will display. Evasive maneuvers are encouraged.</P>
+            <P>&nbsp;</P>       
+                       
+                       
+               </TD></TR></TABLE></DIV>
+      <DIV align=center>&nbsp;</DIV>
+
+</TD>
+</TR>
+</TABLE>
+<P>&nbsp;</P>
+<TABLE align=center width=505>
+  
+  <TR>
+    <TD bgColor=#003366 vAlign=top><FONT 
+      size=+1><B>RWM Bar</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <P>The RWM bar, or radar/weaponry/mission bar, consists of just that: radar statistics, weaponry statistics, and mission statistics. The following sections will help you to familiarize yourself with the standard RWM bar.</P>
+      <P align=center>
+      <TABLE style="WIDTH: 400px">
+        
+        <TR>
+          <TD bgColor=#003366 vAlign=top><FONT size=+1><B> 
+             RWM Example</B></FONT></TD>
+        <TR>
+          <TD vAlign=top>
+            <P align=center><img src="../media/hud_lower.jpg"></P></TD></TR></TABLE>           
+                   
+                    
+                   
+            </P></TD></TR></TABLE>
+<P>&nbsp;</P>
+<TABLE align=center width=505>
+  
+  <TR>
+    <TD bgColor=#003366 vAlign=top><FONT 
+      size=+1><B>Radar Readout Breakdown</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <DIV align=center>
+      <DIV align=center>&nbsp;</DIV>
+      <DIV align=center>
+      <TABLE align=center cellPadding=2 cellSpacing=2 width=400>
+        
+        <TR vAlign=top>
+          <TD bgColor=#003366></TD>
+          <TD bgColor=#666666 style="WIDTH: 150px"><B>Component</B></TD>
+          <TD bgColor=#333333><B>Description</B></TD></TR>
+        <TR vAlign=top >
+          <TD bgColor=#002244><B>1. </B></TD>
+          <TD bgColor=#555555><STRONG>Holo-model</STRONG></TD>
+          <TD bgColor=#222222>
+            <P>A holographic miniature of the targeted object, rendered from radar data.</P></TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>2. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Transponder Data</STRONG></TD>
+          <TD bgColor=#222222>
+            <P>Each ship, station, jumpgate, or other manufactured item is built with an internal transponder, which emits certain data about itself to anyone who is in range. Transponder signals are received and displayed in the following manner:</P>
+            <P><STRONG>rank: pilot_name/squad/bounty</STRONG></P>  
+			<P>The <b>bounty</b> field will contain one of three possible pieces of data: the word "Ally", a number, or nothing. If you shoot down a pilot with the word "Ally" displayed, TRI will punish you according to the <a href="bounty.html">bounty system</a>. If there is a number, you will be paid that amount in credits as a bounty. If the line is blank, there will be no recourse for ripping the pilot.</P>    
+                      
+                   </TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>3. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Radar Display Plane</STRONG></TD>
+          <TD bgColor=#222222>Displays objects in space relative to your ships x/y (ground) plane. Blips are colored as per the object's alignment. (i.e. red - octavius, yellow -neutral, grey - non-aligned, etc.)</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>4. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Target Statistics</STRONG></TD>
+          <TD bgColor=#222222>   Displays velocity, armor, and shield levels for targeted ships and ship-like objects.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>5. </STRONG></TD>
+          <TD bgColor=#555555><STRONG> Distance to Target</STRONG></TD>
+          <TD bgColor=#222222>Displays your current distance from targeted object.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>6.&nbsp;</STRONG></TD>
+          <TD bgColor=#555555><STRONG>Target Alignment Reference</STRONG></TD>
+          <TD bgColor=#222222>The target alignment reference will change color depending on the targeted object's alignment.</TD></TR>
+        <TR vAlign=top>
+          <TD bgColor=#002244><STRONG>7. </STRONG></TD>
+          <TD bgColor=#555555><STRONG>Radar Display Data</STRONG></TD>
+          <TD bgColor=#222222>Displays current radar group (toggle with 'Insert' and 'Delete'), and current radar setting power in meters (toggle with 'Home' and 'End'). In this example x20000, meaning all objects within 20000 meters will be visible on radar. ALL means all targetable objects will be displayed.
+      </TD></TR></TABLE></DIV></DIV></TD></TR></TABLE>
+<P>&nbsp;</P>
+<TABLE align=center width=505>
+  
+  <TR>
+    <TD bgColor=#003366 vAlign=top><FONT 
+      size=+1><B>Weapon Readouts</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <P>Vital to any pilot who may be (intentionally or unintentionally) engaging in battle, these display points will tell you what guns and missiles you have equipped. By pressing 'g' you can toggle your active weapon, and by pressing 'n' you can toggle your active missile.</P></TD></TR></TABLE>
+<P>&nbsp;</P>
+<TABLE align=center width=505>
+  
+  <TR>
+    <TD bgColor=#003366 vAlign=top><FONT size=+1><B>Mission Status</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <P>The mission status section of the RWM bar displays remaining mission requirements, if any exist. For more information on mission requirements, see the <a HREF="mission_overview.html">missions overview</a> readout.</P></TD></TR></TABLE>
+<P>&nbsp;</P>
+<TABLE align=center width=505>
+  
+  <TR>
+    <TD bgColor=#003366 vAlign=top><FONT 
+      size=+1><B>Standard Comminications Display</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <P>This section of the HUD is visible at the top of your screen, and contains communication and system messages relevant to you and your ship. For more information on communication, see the <a HREF="communication.html">communication</a> resource page.</P></TD></TR></TABLE>
+<!-- End Body Content -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/flight_academy/hud.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:42 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/flight_academy/hud.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:43:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

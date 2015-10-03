@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/JOSSH.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:55:50 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/JOSSH.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:37:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - News/Statistics Redirect</TITLE>
+</HEAD>
+<BODY BACKGROUND="media/background.gif" BGCOLOR="#000000">
+
+<!-- Begin Body Content -->
+<P ALIGN="CENTER">
+<FONT SIZE="+1" COLOR="#CCCCCC" FACE="Arial">Accessing <B>J</B>umpgate<SUP><FONT SIZE="-2">TM</FONT></SUP> <B>O</B>perating <B>S</B>ystem <B>SH</B>ell...<BR>
+Please Wait...</FONT>
+</P>
+
+<FORM ACTION="http://www.jossh.com/jgeng/JOSSH.aspx" METHOD="POST" NAME="cookieForm" ID="cookieForm">
+<INPUT TYPE="Hidden" NAME="username" VALUE="">
+<INPUT TYPE="Hidden" NAME="password" VALUE="">
+</FORM>
+
+<SCRIPT LANGUAGE="JavaScript">
+var uStr = "username=";
+var pStr = "password=";
+
+var theCookie = document.cookie;
+var startUN = theCookie.indexOf(uStr);
+var startPW = theCookie.indexOf(pStr);
+
+
+if ((startUN < 0) || (startPW < 0))
+{
+	// if it doesn't exist
+	document.location = "/jgeng/JOSSH.aspx";
+}
+else
+{
+	startUN += uStr.length;
+	end = theCookie.indexOf(';',startUN);
+	if (end == -1)
+		end = theCookie.length;
+	var userName = theCookie.substring(startUN,end);
+	
+	startPW += pStr.length;
+	end = theCookie.indexOf(';',startPW);
+	if (end == -1)
+		end = theCookie.length;
+	var passWord = theCookie.substring(startPW,end);
+	
+	// set form values
+	document.cookieForm.username.value = userName;
+	document.cookieForm.password.value = passWord;
+	document.cookieForm.submit();
+}
+</SCRIPT>
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/JOSSH.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:55:50 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/JOSSH.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 17:37:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

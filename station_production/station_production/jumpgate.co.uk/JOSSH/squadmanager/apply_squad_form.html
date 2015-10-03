@@ -1,0 +1,435 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/squadmanager/apply_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:13:13 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/squadmanager/apply_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:07:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Apply to Join Squad</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+
+function validate()
+{
+	if(document.forms[0].callsign.value == "")
+	{
+		alert("You need to specify a founder.");
+		document.forms[0].founder.focus();
+		return false;
+	}
+		
+	if(document.forms[0].callsign.value.indexOf(" ") >= 0)
+	{
+		alert("Spaces are not allowed in the founder field, please remove them.");
+		document.forms[0].founder.focus();
+		return false;
+	}
+
+	if(document.forms[0].password.value.indexOf(" ") >= 0)
+	{
+		alert("Spaces are not allowed in your password, please remove them.");
+		document.forms[0].password1.focus();
+		return false;
+	}
+
+	if(document.forms[0].password.value == "")
+	{
+		alert("You need to fill in your password.");
+		document.forms[0].password1.focus();
+		return false;
+	}
+		
+	return true;
+}
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Join Squad</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<!-- BEGIN FORM -->
+<FORM ACTION='http://www.jossh.com/jgeng/SquadManager.aspx' NAME='ApplyForSquad' METHOD='post'>
+<INPUT TYPE='hidden' NAME='mode' VALUE='apply'>
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="1" BGCOLOR="#222222" WIDTH="500" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" BGCOLOR="#000000"><FONT SIZE="-1">Please provide TRI with the following information to apply to join a Squad.</FONT></TD>
+</TR>
+<TR VALIGN="TOP">
+	<TD BGCOLOR="#334466" COLSPAN="2"><B>Join Squad Application</B></TD>
+</TR>
+<TR>
+	<TD BGCOLOR='#000000'><B>Callsign:</B><BR>
+	<FONT SIZE="-2">This is the same callsign used in the game.<BR>
+	Only registered pilots may join squads.</FONT></TD>
+	<TD BGCOLOR='#000000'><INPUT TYPE='text' NAME='callsign' VALUE='' SIZE='10' MAXLENGTH='10'></TD>
+</TR>
+<TR>
+	<TD BGCOLOR='#000000'><B>Password:</B><BR>
+	<FONT SIZE="-2">This is the same password used in the game.</FONT></TD>
+	<TD BGCOLOR='#000000'><INPUT TYPE='password' NAME='password' VALUE='' SIZE='9' MAXLENGTH='9'></TD>
+</TR>
+<TR>
+	<TD BGCOLOR='#000000'><B>Available Squads:</B></TD>
+	<TD BGCOLOR='#000000'><SELECT NAME='squadName'>
+			<OPTION>     Hitman AG</OPTION>
+			<OPTION>  Drunken Apes</OPTION>
+			<OPTION> -HTF-</OPTION>
+			<OPTION>- QSM -</OPTION>
+			<OPTION>- Soltar -</OPTION>
+			<OPTION>[SMP]</OPTION>
+			<OPTION>_StormRaiders_</OPTION>
+			<OPTION>-=ACME=-</OPTION>
+			<OPTION>-=G-O-D=-</OPTION>
+			<OPTION>-=MACK=-</OPTION>
+			<OPTION>=Red Dawn=</OPTION>
+			<OPTION>187</OPTION>
+			<OPTION>3rd Battalion</OPTION>
+			<OPTION>405th</OPTION>
+			<OPTION>A.M.L.</OPTION>
+			<OPTION>-abs-</OPTION>
+			<OPTION>Ace Trucking</OPTION>
+			<OPTION>ALONE</OPTION>
+			<OPTION>Amber Flame</OPTION>
+			<OPTION>Amn Allience</OPTION>
+			<OPTION>Angel</OPTION>
+			<OPTION>Angel Eyes</OPTION>
+			<OPTION>Angry Angels</OPTION>
+			<OPTION>AQM</OPTION>
+			<OPTION>AQMpart2</OPTION>
+			<OPTION>Aquis Granum</OPTION>
+			<OPTION>Ars Necandi</OPTION>
+			<OPTION>Artehunter AG</OPTION>
+			<OPTION>Arti hunters</OPTION>
+			<OPTION>ARTIFACTS INC</OPTION>
+			<OPTION>Artis-R-Us</OPTION>
+			<OPTION>Artyfact</OPTION>
+			<OPTION>ATHF</OPTION>
+			<OPTION>Ausmine corp</OPTION>
+			<OPTION>AX</OPTION>
+			<OPTION>-AX-</OPTION>
+			<OPTION>Babylon Group</OPTION>
+			<OPTION>Balrog</OPTION>
+			<OPTION>-Barnsdale-</OPTION>
+			<OPTION>beer drinkers</OPTION>
+			<OPTION>Black Company</OPTION>
+			<OPTION>Black Hole Sun</OPTION>
+			<OPTION>Black Jewel</OPTION>
+			<OPTION>Black October</OPTION>
+			<OPTION>-Black Raven-</OPTION>
+			<OPTION>BLACK TEMPLARS</OPTION>
+			<OPTION>-Blitzen-</OPTION>
+			<OPTION>Blood Knights</OPTION>
+			<OPTION>Blue Tomatoes</OPTION>
+			<OPTION>BoB</OPTION>
+			<OPTION>Bonnie&Clyde</OPTION>
+			<OPTION>Bovid</OPTION>
+			<OPTION>BROKER</OPTION>
+			<OPTION>Brotherhood</OPTION>
+			<OPTION>Canthitshit</OPTION>
+			<OPTION>Cbrarti</OPTION>
+			<OPTION>CCCC</OPTION>
+			<OPTION>Control</OPTION>
+			<OPTION>Crimson Guard</OPTION>
+			<OPTION>Crusaders</OPTION>
+			<OPTION>CubicBolognium</OPTION>
+			<OPTION>Cuideigin</OPTION>
+			<OPTION>Cyberopas</OPTION>
+			<OPTION>-Cyberopas-</OPTION>
+			<OPTION>Damage Inc</OPTION>
+			<OPTION>DarkVoid</OPTION>
+			<OPTION>Davion-Guards</OPTION>
+			<OPTION>DDZ</OPTION>
+			<OPTION>Deep Running</OPTION>
+			<OPTION>DeepCore </OPTION>
+			<OPTION>DET-SAW</OPTION>
+			<OPTION>DHL</OPTION>
+			<OPTION>DND</OPTION>
+			<OPTION>DoP</OPTION>
+			<OPTION>DragonEye</OPTION>
+			<OPTION>-DragonEye-</OPTION>
+			<OPTION>Dunlap</OPTION>
+			<OPTION>-easy FraGGin-</OPTION>
+			<OPTION>echo squadron</OPTION>
+			<OPTION>EFR</OPTION>
+			<OPTION>Ember Thorn</OPTION>
+			<OPTION>Eternal Legacy</OPTION>
+			<OPTION>Evil Inc.</OPTION>
+			<OPTION>Evolution</OPTION>
+			<OPTION>Faction Friend</OPTION>
+			<OPTION>Fallen Angels</OPTION>
+			<OPTION>Fallen Wild</OPTION>
+			<OPTION>Fatal Shadows</OPTION>
+			<OPTION>FatalShadowsEU</OPTION>
+			<OPTION>FatJawsBadness</OPTION>
+			<OPTION>-Ferenghi-</OPTION>
+			<OPTION>Flux Clearance</OPTION>
+			<OPTION>FLUX HUGGERS</OPTION>
+			<OPTION>Flux You</OPTION>
+			<OPTION>FLUXINATORS</OPTION>
+			<OPTION>Fluxxors</OPTION>
+			<OPTION>Flying Fur</OPTION>
+			<OPTION>Flying Tigers</OPTION>
+			<OPTION>fools hunters</OPTION>
+			<OPTION>For Ayur</OPTION>
+			<OPTION>FOR HIRE</OPTION>
+			<OPTION>Foreign Legion</OPTION>
+			<OPTION>FPG</OPTION>
+			<OPTION>FreeDasBooters</OPTION>
+			<OPTION>Front LLC</OPTION>
+			<OPTION>FTL</OPTION>
+			<OPTION>FubaR</OPTION>
+			<OPTION>Furcifer</OPTION>
+			<OPTION>Future MEaT</OPTION>
+			<OPTION>Gamma Circle</OPTION>
+			<OPTION>Gate Express</OPTION>
+			<OPTION>-GHOST-</OPTION>
+			<OPTION>Goodfellas</OPTION>
+			<OPTION>Grease monkeys</OPTION>
+			<OPTION>Green Blood</OPTION>
+			<OPTION>Hamalzan Guard</OPTION>
+			<OPTION>Hand Of Blood</OPTION>
+			<OPTION>HawkBats Mercs</OPTION>
+			<OPTION>Heralds of war</OPTION>
+			<OPTION>Heretic</OPTION>
+			<OPTION>High Fliers</OPTION>
+			<OPTION>HMMC</OPTION>
+			<OPTION>Horizon</OPTION>
+			<OPTION>---HORIZON---</OPTION>
+			<OPTION>Horizon Inc</OPTION>
+			<OPTION>Hydras Teeth</OPTION>
+			<OPTION>ION</OPTION>
+			<OPTION>-iV-</OPTION>
+			<OPTION>Jade Falcon</OPTION>
+			<OPTION>Jenny Taylor</OPTION>
+			<OPTION>Jenovas Wtns</OPTION>
+			<OPTION>JG_52</OPTION>
+			<OPTION>JITWa</OPTION>
+			<OPTION>Jolly Roger</OPTION>
+			<OPTION>Joy Division</OPTION>
+			<OPTION>JPR</OPTION>
+			<OPTION>Kindred Souls</OPTION>
+			<OPTION>Knights Order</OPTION>
+			<OPTION>-KoH-</OPTION>
+			<OPTION>Les Crottes</OPTION>
+			<OPTION>LFS</OPTION>
+			<OPTION>Likedeeler</OPTION>
+			<OPTION>Lin Kuei</OPTION>
+			<OPTION>--lone wolf--</OPTION>
+			<OPTION>LongForgotten</OPTION>
+			<OPTION>Lost Girls</OPTION>
+			<OPTION>M1ssing L1nkz</OPTION>
+			<OPTION>MAD Inc</OPTION>
+			<OPTION>Malevolence</OPTION>
+			<OPTION>Massholes</OPTION>
+			<OPTION>MEC</OPTION>
+			<OPTION>MerchantsGuild</OPTION>
+			<OPTION>MightyGames</OPTION>
+			<OPTION>Montague</OPTION>
+			<OPTION>Mor-Rioghain</OPTION>
+			<OPTION>Murphys Law</OPTION>
+			<OPTION>Mystic Traders</OPTION>
+			<OPTION>Nazgul</OPTION>
+			<OPTION>Negotiator</OPTION>
+			<OPTION>New Dawn</OPTION>
+			<OPTION>New Visions</OPTION>
+			<OPTION>No Squad</OPTION>
+			<OPTION>None</OPTION>
+			<OPTION>Nosferatu</OPTION>
+			<OPTION>nosquad</OPTION>
+			<OPTION>Not a Moon</OPTION>
+			<OPTION>NRM</OPTION>
+			<OPTION>Nu893</OPTION>
+			<OPTION>Nunya</OPTION>
+			<OPTION>NZ Warriors</OPTION>
+			<OPTION>OAS</OPTION>
+			<OPTION>Obese Vangaurd</OPTION>
+			<OPTION>obiwons squad</OPTION>
+			<OPTION>Octa Armada</OPTION>
+			<OPTION>Octa Dragons</OPTION>
+			<OPTION>Octa-Dragons</OPTION>
+			<OPTION>Okta Primitive</OPTION>
+			<OPTION>OMC</OPTION>
+			<OPTION>Omega LLC</OPTION>
+			<OPTION>OMISTUS</OPTION>
+			<OPTION>oO-  EVIL -Oo</OPTION>
+			<OPTION>ORE</OPTION>
+			<OPTION>Orrus Insight</OPTION>
+			<OPTION>-OsD-</OPTION>
+			<OPTION>OSP</OPTION>
+			<OPTION>Outlaw</OPTION>
+			<OPTION>OV</OPTION>
+			<OPTION>Paladine</OPTION>
+			<OPTION>PBJ and Milk</OPTION>
+			<OPTION>Peace for Hemp</OPTION>
+			<OPTION>Pestilence</OPTION>
+			<OPTION>PewPew</OPTION>
+			<OPTION>Phantoms</OPTION>
+			<OPTION>PhixXxeus</OPTION>
+			<OPTION>PHOENIX</OPTION>
+			<OPTION>Pinkies</OPTION>
+			<OPTION>Pirate</OPTION>
+			<OPTION>Poose FL</OPTION>
+			<OPTION>pr0ns mining</OPTION>
+			<OPTION>ProstheticsInc</OPTION>
+			<OPTION>QC</OPTION>
+			<OPTION>QMC</OPTION>
+			<OPTION>-QMG-</OPTION>
+			<OPTION>QPS</OPTION>
+			<OPTION>Qqp</OPTION>
+			<OPTION>QSSP</OPTION>
+			<OPTION>Quantar</OPTION>
+			<OPTION>Quantars Hope</OPTION>
+			<OPTION>Quantars Licht</OPTION>
+			<OPTION>Quantars Sword</OPTION>
+			<OPTION>Quant-Inc</OPTION>
+			<OPTION>R.E.G.A.N.</OPTION>
+			<OPTION>RATT</OPTION>
+			<OPTION>Raummorder</OPTION>
+			<OPTION>-REAL-</OPTION>
+			<OPTION>Rebel Alliance</OPTION>
+			<OPTION>Red Dwarfers</OPTION>
+			<OPTION>RED EXPRESS</OPTION>
+			<OPTION>Red Guard</OPTION>
+			<OPTION>Red Wing</OPTION>
+			<OPTION>Repatriates</OPTION>
+			<OPTION>Return</OPTION>
+			<OPTION>Returned</OPTION>
+			<OPTION>Rimfire</OPTION>
+			<OPTION>Roh Defender</OPTION>
+			<OPTION>Ronin</OPTION>
+			<OPTION>Royal Guard</OPTION>
+			<OPTION>RUR</OPTION>
+			<OPTION>RW</OPTION>
+			<OPTION>-S-</OPTION>
+			<OPTION>Sarumans Hand</OPTION>
+			<OPTION>Save the Fluxx</OPTION>
+			<OPTION>SCM</OPTION>
+			<OPTION>SDLC</OPTION>
+			<OPTION>-SDLC-</OPTION>
+			<OPTION>Section-41</OPTION>
+			<OPTION>Seii Taishogun</OPTION>
+			<OPTION>Semper Paratus</OPTION>
+			<OPTION>SG-1</OPTION>
+			<OPTION>Shivan Clan 7</OPTION>
+			<OPTION>Sleazy Weasels</OPTION>
+			<OPTION>Smurf Hunters</OPTION>
+			<OPTION>Sol Legion</OPTION>
+			<OPTION>-SOL- Navy</OPTION>
+			<OPTION>Sol Reign</OPTION>
+			<OPTION>SoLiCiDaL</OPTION>
+			<OPTION>Solidarity</OPTION>
+			<OPTION>Solitaires</OPTION>
+			<OPTION>Soloist</OPTION>
+			<OPTION>Someone</OPTION>
+			<OPTION>Soul Filets</OPTION>
+			<OPTION>SPACEBALLS</OPTION>
+			<OPTION>-SPACEMARINES-</OPTION>
+			<OPTION>SpaceTruckerz</OPTION>
+			<OPTION>--SPC--</OPTION>
+			<OPTION>Spriggan</OPTION>
+			<OPTION>SPS</OPTION>
+			<OPTION>SRI</OPTION>
+			<OPTION>STARS</OPTION>
+			<OPTION>STCC FIB</OPTION>
+			<OPTION>Steel Vipers</OPTION>
+			<OPTION>STMG</OPTION>
+			<OPTION>STMG Nomads</OPTION>
+			<OPTION>SUDDEN DEATH</OPTION>
+			<OPTION>Super Nova</OPTION>
+			<OPTION>SwarmBusters</OPTION>
+			<OPTION>Tar Ayim</OPTION>
+			<OPTION>TBH</OPTION>
+			<OPTION>Terrier Pack</OPTION>
+			<OPTION>-TG-</OPTION>
+			<OPTION>The Biologists</OPTION>
+			<OPTION>The Black Hand</OPTION>
+			<OPTION>The Dark Path</OPTION>
+			<OPTION>The Drakhai</OPTION>
+			<OPTION>The Foundation</OPTION>
+			<OPTION>The Law</OPTION>
+			<OPTION>The Misfits</OPTION>
+			<OPTION>The Saints</OPTION>
+			<OPTION>The Shadows</OPTION>
+			<OPTION>The Trust</OPTION>
+			<OPTION>The Wankers</OPTION>
+			<OPTION>The Wolf</OPTION>
+			<OPTION>The Wolves</OPTION>
+			<OPTION>The X Factor</OPTION>
+			<OPTION>The_All_Thing</OPTION>
+			<OPTION>The_Hammer</OPTION>
+			<OPTION>TheCrazyFarm</OPTION>
+			<OPTION>Titty Sprinkle</OPTION>
+			<OPTION>TM&T</OPTION>
+			<OPTION>Toe Tag</OPTION>
+			<OPTION>Tooth-GrinClan</OPTION>
+			<OPTION>T-quonus</OPTION>
+			<OPTION>TransAlliance</OPTION>
+			<OPTION>TRANSPORT INC</OPTION>
+			<OPTION>TRI Privateers</OPTION>
+			<OPTION>ULF</OPTION>
+			<OPTION>Unique</OPTION>
+			<OPTION>United Navy-TC</OPTION>
+			<OPTION>unknown</OPTION>
+			<OPTION>UNSCDF</OPTION>
+			<OPTION>UZI</OPTION>
+			<OPTION>VEGA</OPTION>
+			<OPTION>Veoh</OPTION>
+			<OPTION>Vigilante Inc</OPTION>
+			<OPTION>Virus</OPTION>
+			<OPTION>VME</OPTION>
+			<OPTION>VWVdqpbVWV</OPTION>
+			<OPTION>Walter Inc</OPTION>
+			<OPTION>Warrior</OPTION>
+			<OPTION>wolverines</OPTION>
+			<OPTION>Wreckage Inc</OPTION>
+			<OPTION>X-Traders</OPTION>
+			<OPTION>XXX-Full</OPTION>
+			<OPTION>Yop</OPTION>
+			<OPTION>Ze Zeppelins</OPTION>
+			<OPTION>Zealot</OPTION>
+			<OPTION>zx81</OPTION>
+		</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD COLSPAN='2' ALIGN='CENTER'><INPUT TYPE='submit' VALUE='apply'></TD>
+</TR>
+<TR>
+	<TD COLSPAN='2' ALIGN='CENTER'><FONT COLOR='#FFFFFF' SIZE='-2'>Last Updated: Mon, 21 Feb 2011 13:04:21 GMT</FONT></TD>
+</TR>
+</TABLE>
+</FORM>
+<!-- END FORM -->
+<!-- END CONTENT -->
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/squadmanager/apply_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:13:13 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/squadmanager/apply_squad_form.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:07:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?p=Spudulike by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:54:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer07ad.html?p=Spudulike by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+	<META NAME="Author" CONTENT="Jumpgate(TM) developed by NetDevil(R) - http://www.netdevil.com">
+	<TITLE>Jumpgate(TM) - Pilot Center</TITLE>
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="../in_game.css">
+</HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// --------------------------------------------------------
+// Rollover code, v.1.1a
+// --------------------------------------------------------
+// Browser version checking
+var Version=0;
+browsername = navigator.appName;
+version = parseFloat(navigator.appVersion); 
+if (browsername == "Netscape" && version >= 3.0)
+{
+	roll = 'true';
+}
+else if (browsername == "Microsoft Internet Explorer" && version >= 3.0)
+{
+	roll = 'true';
+}
+else
+{
+	roll = 'false';
+}
+// at this point:
+// roll == true if the version of the browser will work
+// roll == false otherwise
+
+if (roll == 'true')
+// the array is only preloaded if the browser can handle javascript rollovers
+{
+	// simple preloading routine
+	arImageSrc = new Array ("../media/button_pilots_over.gif", 
+							"../media/button_squads_over.gif", 
+							"../media/button_login_over.gif", 
+							"../media/button_join_now_over.gif",
+							"../media/button_stats_over.gif");
+	arImageList = new Array ();
+	
+	for (counter in arImageSrc) 
+	{	
+		arImageList[counter] = new Image();
+		arImageList[counter].src = arImageSrc[counter];
+	}
+}
+// end if roll==true
+	
+// hilight and unhilight images code
+// this code assumes that hilighted images have the same name as the normal images
+// plus an '_over' extension... as follows:
+// 			original name = x.gif
+//			rollover name = x_over.gif
+function switchjpg(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.jpg";
+	}
+}
+function switchbackjpg(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".jpg";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".jpg";
+	}
+}
+function switchgif(source)
+{		
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+"_over.gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+"_over.gif";
+	}
+}
+function switchbackgif(source)
+{
+	if (document.nav_table)
+	{
+		document.nav_table.document.images[source].src = "/media/"+source+".gif";
+	}
+	else if (roll == 'true')
+	{
+		document.images[source].src = "/media/"+source+".gif";
+	}
+}
+
+
+function updateLocation()
+{
+	if (top.JG_top && top.JG_top.exists)
+	{
+		top.JG_top.updateLocation(2,"news");
+		top.JG_top.updateLocation(3,"none");
+	}
+}
+// -->
+</SCRIPT>
+<BODY BACKGROUND="../media/background.gif" onLoad="updateLocation();">
+
+<!-- BEGIN CONTENT -->
+<!-- BEGIN HEADER -->
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="3" BGCOLOR="#000000" WIDTH="440" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD ALIGN="LEFT"></TD>
+	<TD ALIGN="RIGHT"><FONT SIZE="+3"><B>Pilot Center</B></FONT></TD>
+</TR>
+</TABLE>
+<!-- END HEADER -->
+<BR CLEAR="ALL">
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=1 BGCOLOR="#555555" ALIGN="CENTER">
+<TR BGCOLOR="#334466" ALIGN="CENTER" VALIGN="TOP">
+	<TD ROWSPAN="43" WIDTH="125" BGCOLOR="#000000" ALIGN="CENTER" VALIGN="TOP"><IMG SRC="../history/media/logo_quantar.gif" BORDER="0"><BR><A HREF="../database/medals/medal0.html"><IMG SRC="../media/medals/medal0.gif" WIDTH="25" BORDER="0" ALT="Spirit of Unity" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal2.html"><IMG SRC="../media/medals/medal2.gif" WIDTH="25" BORDER="0" ALT="Safety Belt" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal4.html"><IMG SRC="../media/medals/medal4.gif" WIDTH="25" BORDER="0" ALT="Ring of Commitment" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal5.html"><IMG SRC="../media/medals/medal5.gif" WIDTH="25" BORDER="0" ALT="Tactical Pride" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal6.html"><IMG SRC="../media/medals/medal6.gif" WIDTH="25" BORDER="0" ALT="Honor's Mark" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal8.html"><IMG SRC="../media/medals/medal8.gif" WIDTH="25" BORDER="0" ALT="Leap of Faith" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal9.html"><IMG SRC="../media/medals/medal9.gif" WIDTH="25" BORDER="0" ALT="Path of Light" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal42.html"><IMG SRC="../media/medals/medal42.gif" WIDTH="25" BORDER="0" ALT="Unity Stripe" ALIGN="TOP"></A>
+<BR>
+<A HREF="../database/medals/medal75.html"><IMG SRC="../media/medals/medal75.gif" WIDTH="25" BORDER="0" ALT="Gates of Heaven" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal143.html"><IMG SRC="../media/medals/medal143.gif" WIDTH="25" BORDER="0" ALT="Emerald Nova" ALIGN="TOP"></A>
+<A HREF="../database/medals/medal162.html"><IMG SRC="../media/medals/medal162.gif" WIDTH="25" BORDER="0" ALT="Starburst" ALIGN="TOP"></A>
+</TD>
+	<TD BGCOLOR="#002222" ALIGN="CENTER"><FONT SIZE="-2" COLOR="#999999">active</FONT></TD>
+	<TD COLSPAN="2" ROWSPAN="2" VALIGN="MIDDLE"><FONT SIZE="+2"><B><IMG SRC="../media/rank14.gif" ALIGN="MIDDLE"> Spudulike</B></FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD BGCOLOR="#99FF99" ALIGN="CENTER"><FONT SIZE="-2" COLOR="#000000"><B>docked</B></FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#000000" ALIGN="CENTER"><FONT SIZE="-2"><BR>registry<BR><IMG SRC="../media/registry_none.gif" WIDTH="40" HEIGHT="40" ALT="Civilian - Peaceful Intent, aggressive engagement will result in penalty."><BR>TRI<BR>Civilian</FONT></TD>
+	<TD CLASS="statcat">rank</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">Phontista [14]</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">squad</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD BGCOLOR="#222222"><FONT SIZE="-2">experience needed to<BR> acquire Culurista rank</FONT></TD>
+	<TD ALIGN="CENTER"><FONT SIZE="-2">250631/280000</FONT><BR>
+<IMG SRC="../media/pixel_334466.gif" WIDTH="6" HEIGHT="6"><IMG SRC="../media/pixel_99FFFF.gif" WIDTH="26" HEIGHT="6"><IMG SRC="../media/pixel_222222.gif" WIDTH="74" HEIGHT="6"><IMG SRC="../media/pixel_334466.gif" WIDTH="6" HEIGHT="6"></TD>
+</TR>
+<TR BGCOLOR="#222222" ALIGN="CENTER" VALIGN="TOP">
+	<TD COLSPAN="5"><B>combat categories</B></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_solrain.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Solrain kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="999999" SIZE="-1"><B>Neutral</B></FONT> <FONT SIZE="-2">(0)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_octavius.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Octavius kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="999999" SIZE="-1"><B>Neutral</B></FONT> <FONT SIZE="-2">(0)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_quantar.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Quantar kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="99FFFF" SIZE="-1"><B>Worshipped</B></FONT> <FONT SIZE="-2">(125)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_amananth.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Amananth</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="999999" SIZE="-1"><B>Neutral</B></FONT> <FONT SIZE="-2">(0)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="2" BGCOLOR="#111111"><IMG SRC="../news/media/logo_stats_hyperial.gif" WIDTH=40 HEIGHT=15 ALT="" BORDER="0"></TD>
+	<TD CLASS="statcat">Hyperial</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">political status</TD>
+	<TD ALIGN="RIGHT"><FONT COLOR="999999" SIZE="-1"><B>Neutral</B></FONT> <FONT SIZE="-2">(0)</FONT></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="5" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">total pilot kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">bounty collected</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">bounty per kill</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c0.0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">deaths</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">3</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">kill ratio</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0.000 %</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">Conflux kills</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">209</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="6" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">gunshots fired</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">63014</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">gunshots hit</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">10805</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">gun accuracy</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">17.147 %</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missiles fired</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">47</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missiles hit</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">28</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missile accuracy</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">59.574 %</TD>
+</TR>
+<TR BGCOLOR="#222222" ALIGN="CENTER" VALIGN="TOP">
+	<TD COLSPAN="5"><B>non-combat categories</B></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">experience</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">250631</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">credits</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">1484534</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">net worth</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">c3247154</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="4" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">launches</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">77</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">landings</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">74</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">disconnects</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">0</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">duty hours</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">32.1</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD COLSPAN="3" BGCOLOR="#222222"><IMG SRC="../media/pixel.gif" WIDTH="1" HEIGHT="2"></TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD ROWSPAN="3" BGCOLOR="#111111">&nbsp;</TD>
+	<TD CLASS="statcat">missions taken</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">62</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">missions complete</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">60</TD>
+</TR>
+<TR BGCOLOR="#000000" VALIGN="TOP">
+	<TD CLASS="statcat">insurance rating</TD>
+	<TD CLASS="statgood" ALIGN="RIGHT">9.6</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="1" BGCOLOR="#000000" ALIGN="CENTER">
+<TR BGCOLOR="#000000" ALIGN="CENTER" VALIGN="TOP">
+<TD><FONT SIZE="-2">Pilot Account activated 1.1.2.11:36.30</FONT></TD>
+</TABLE>
+
+<TABLE WIDTH="440" ALIGN="CENTER">
+<TR><TD ALIGN="RIGHT"><FONT SIZE="-2"><BR><A HREF="../JOSSH.html">JOSSH</A> v.3.02</FONT></TD></TR>
+</TABLE><BR CLEAR="ALL">
+
+
+<!-- BEGIN BUTTONS -->
+<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="420" ALIGN="CENTER">
+<TR VALIGN="TOP">
+	<TD COLSPAN="2" ALIGN="CENTER"><A HREF="../news/stats/index.html" onmouseout="switchbackgif('button_stats');" onmouseover="switchgif('button_stats');"><IMG SRC="../media/button_stats.gif" NAME="button_stats" BORDER="0" ALT="Get the latest TRI and pilot statistics" WIDTH="116" HEIGHT="34"></A><A HREF="../squadmanager/index-2.html" onmouseout="switchbackgif('button_squads');" onmouseover="switchgif('button_squads');"><IMG SRC="../media/button_squads.gif" NAME="button_squads" BORDER="0" ALT="Join a squad today!" WIDTH="126" HEIGHT="34"></A><A HREF="../pilot_center.html" onmouseout="switchbackgif('button_pilots');" onmouseover="switchgif('button_pilots');"><IMG SRC="../media/button_pilots.gif" NAME="button_pilots" BORDER="0" WIDTH="130" HEIGHT="34" ALT="Realtime pilot lookups and information"></A>
+</TD>
+</TR>
+</TABLE>
+<!-- END BUTTONS -->
+<BR CLEAR="ALL">
+
+<!-- END CONTENT -->
+
+</BODY>
+
+<!-- Mirrored from www.jossh.com/jgeng/PilotViewer.aspx?p=Spudulike by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 20:54:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/jgeng/PilotViewer07ad.html?p=Spudulike by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>

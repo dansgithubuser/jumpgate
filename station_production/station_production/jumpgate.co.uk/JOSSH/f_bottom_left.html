@@ -1,0 +1,60 @@
+<HTML>
+
+<!-- Mirrored from www.jossh.com/f_bottom_left.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:23 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/f_bottom_left.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+<TITLE>Jumpgate(TM) - Framework - Bottom Left</TITLE>
+<LINK REL=stylesheet TYPE="text/css" HREF="in_game.css">
+<SCRIPT LANGUAGE="JavaScript"> 
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+
+function framemovie_DoFSCommand(command, args) 
+{ 
+//alert("fs");
+  if ( command == "notifyNext" ) 
+  	notifyNext(); 
+}
+
+function notifyNext()
+{
+//alert("hi");
+	var nextMovie1 = isIE ? top.JG_bottom.framemovie : top.JG_bottom.document.layers[0].document.embeds[0]; 
+	var nextMovie2 = isIE ? top.JG_left_bot.framemovie : top.JG_left_bot.document.layers[0].document.embeds[0]; 
+
+	if ((100 > nextMovie1.PercentLoaded()) || (100 > nextMovie2.PercentLoaded()))
+	{
+//		alert('fbl: 1='+ nextMovie1.PercentLoaded() +', 2='+nextMovie2.PercentLoaded());
+		setTimeout('notifyNext()',1000);
+		return;
+	}
+	
+	nextMovie1.Play();
+	nextMovie2.Play();
+}
+</SCRIPT>
+<SCRIPT LANGUAGE="VBScript">
+Sub framemovie_FSCommand(ByVal command, ByVal args)
+  call framemovie_DoFSCommand(command, args)
+end sub
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#000000" ><!-- Aftershock media/f_bot_left.swf 3=179 4=38 5 24=3 32 40 --><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0"
+ ID=framemovie WIDTH=173 HEIGHT=38 CLASS="huggyflash">
+  <PARAM NAME=movie VALUE="media/f_bot_left.swf">
+  <PARAM NAME=bgcolor VALUE="#000000">
+  <PARAM NAME="menu" VALUE="false">
+  <PARAM NAME=quality VALUE=high>
+  <PARAM NAME=scale VALUE=noborder>
+<EMBED NAME="framemovie" BGCOLOR="#000000" SRC="media/f_bot_left.swf" MENU="FALSE" swLiveConnect=TRUE WIDTH=173 HEIGHT=38 QUALITY=high SCALE=noborder TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" CLASS="huggyflash">
+</EMBED></OBJECT><!-- EndAftershock media/f_bot_left.swf --></BODY>
+
+<!-- Mirrored from www.jossh.com/f_bottom_left.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 21 Feb 2011 19:56:23 GMT -->
+
+<!-- Mirrored from jumpgate.co.uk/JOSSH/f_bottom_left.html by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 19 Sep 2015 18:18:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</HTML>
+
+
