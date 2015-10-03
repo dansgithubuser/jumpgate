@@ -1,0 +1,22 @@
+aGV0JTIwb2YlMjBpcyUyMEl0JTIwbnNuQWFjeWRjZSUyMGFL
+aWdtY29uJTIwZWhueXJadCUyMGlz
+
+base64 decode
+
+het%20of%20is%20It%20nsnAacydce%20aK
+igmcon%20ehnyrZt%20is
+
+%20 -> space
+
+het of is It nsnAacydce aK
+igmcon ehnyrZt is
+
+decode word anagrams
+
+the of is It Ascendancy Ka
+coming Zethryn(?)
+
+possible decode of sentence anagram
+
+the Ascendancy of Zethryn(?) Ka
+It is coming

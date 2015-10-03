@@ -1,0 +1,32 @@
+summary of conflux encodings up to 2015-03-26
+
+-----octal representation of ASCII characters-----
+python to decode:
+def f(x): return ''.join([chr(int(i, 8)) for i in x.split()])
+
+examples:
+111 040 150 145 141 162 040 164 150 145 040 154 151 147 150 164 041 - I hear the light!
+167 145 040 141 162 145 040 145 166 145 162 171 167 150 145 162 145 - we are everywhere
+167 145 141 162 145 162 145 154 145 156 164 154 145 163 163 - wearerelentless
+141 156 144 040 143 162 145 141 164 145 040 157 162 144 145 162 - and create order
+
+links:
+https://jgnewsnet.wordpress.com/2014/08/04/conflux-symposium-results/
+https://jgnewsnet.wordpress.com/2014/07/20/sentient-activity-heats-up-amananth-station-damaged/
+https://jgnewsnet.wordpress.com/2014/07/14/tri-admits-to-withholding-uzelin-information/
+
+-----sparse documentation-----
+https://jgnewsnet.wordpress.com/2014/07/23/ktri-hacked-message-deciphered/
+
+'With regard to the coded message that was locked into a loop on KTRI, we had decoded the cipher within 48 hours of the broadcast, but did not release the finding that the translation was “we are coming.”
+
+With regard to the message broadcast three days ago, we have partially decoded the message through two layers of code — Base32 and Ascii85 — but have not, as yet, deciphered the next layer, which is: siahwtsrouktaeto24442'
+
+24442 is an anagram map, it means we should look at the messages like so:
+si ahwt srou ktae to
+
+solving word anagrams:
+is what ours take to
+
+possible solution of sentence anagram:
+[we are coming] to take what is ours
